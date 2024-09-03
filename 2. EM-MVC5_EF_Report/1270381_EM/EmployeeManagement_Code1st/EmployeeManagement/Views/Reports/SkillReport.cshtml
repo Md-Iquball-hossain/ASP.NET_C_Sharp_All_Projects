@@ -1,0 +1,63 @@
+﻿@model IEnumerable<EmployeeManagement.ViewModel.SkillReportModel>
+@{
+    ViewBag.Title = "SkillReport";
+}
+<div class="row">
+    <div class="col-12">
+        <h3>Employees Qualification</h3>
+        <table class="table table-bordered">
+            <thead class="table-light">
+                <tr>
+                    <th>Employee Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var g in Model.GroupBy(x => x.EmployeeName).ToList())
+                {
+                    <tr>
+                        <td>
+                            @g.Key
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="6">
+                            <h4>Educational Qualification</h4>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Degree</th>
+                                        <th>Institute</th>
+                                        <th>Department</th>
+                                        <th>Passing Year</th>
+                                        <th>Result</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var q in g)
+                                    {
+                                        <tr>
+                                            <td>@q.Course</td>
+                                            <td>@q.Institute</td>
+                                            <td>@q.Department</td>
+                                            <td>@q.PassingYear</td>
+                                            <td>@q.Result</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-12 text-center">
+        @Html.ActionLink("Skill Report PDF View", "SkillPDF", "Reports", new { }, new { @class = "btn btn-info btn-sm" })
+    </div>
+        <div>&nbsp;</div>
+</div>
+@section scripts {
+}
+
+
+

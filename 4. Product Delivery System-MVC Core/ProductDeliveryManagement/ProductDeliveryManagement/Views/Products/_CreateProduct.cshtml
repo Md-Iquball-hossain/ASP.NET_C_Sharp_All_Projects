@@ -1,0 +1,51 @@
+﻿@model ProductDeliveryManagement.Models.Product
+@{
+    ViewBag.Title = "Create";
+}
+
+<div class="row">
+    <div class="col-12">
+        <h3>Create new Product</h3>
+        @using (Html.BeginForm())
+        {
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.ProductName, new { @class = "col-form-label col-2" })
+                <div class="col-4">
+                    @Html.TextBoxFor(x => x.ProductName, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.ProductName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.Description, new { @class = "col-form-label col-2" })
+                <div class="col-4">
+                    @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Description, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.UnitPrice, new { @class = "col-form-label col-2" })
+                <div class="col-4">
+                    @Html.TextBoxFor(x => x.UnitPrice, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.UnitPrice, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.IsAvailable, new { @class = "col-form-label col-2" })
+                <div class="col-4">
+                    @Html.CheckBoxFor(x => x.IsAvailable)
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+                <div class="col-4 offset-2">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        }
+    </div>
+    <div class="col-12">
+        @Html.ActionLink("Back to list", "Index")
+    </div>
+</div>
+
+
+

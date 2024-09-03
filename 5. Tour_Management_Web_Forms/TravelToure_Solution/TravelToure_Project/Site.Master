@@ -1,0 +1,102 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="TravelToure_Project.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title><%: Page.Title %></title>
+    <link href="/Content/bootstrap.css" rel="stylesheet" />
+    <script src="/Scripts/bootstrap.bundle.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        body {
+            padding-top: 70px;
+        }
+
+        .img {
+            width: 60px;
+            height: 60px;
+        }
+
+        .list {
+            display: flex;
+            flex-direction: row;
+            margin: 20px auto;
+        }
+
+        .item {
+            margin: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <nav class="navbar bg-info navbar-expand-md fixed-top shadow-sm">
+            <div class="container">
+                <span>
+                    <img class="img rounded-circle p-1" src="/logo.jpeg" /></span>
+                <span class="navbar-brand"> MIH Tour Management System </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse" id="nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="/Default.aspx">Home</a></li>
+                        <li><a class="nav-link" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Menu
+                        </a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/NewFolder1/Report1.aspx">Tour Agent & Package</a></li>
+                                <li><a class="dropdown-item" href="/NewFolder1/Report2.aspx">Tour Information</a></li>
+                                <li><a class="dropdown-item" href="/NewFolder1/Report3.aspx">Tourist Details</a></li>
+                                <li><a class="dropdown-item" href="/NewFolder1/Report4.aspx">Tour Agent Information</a></li>
+                                <li><a class="dropdown-item" href="/NewFolder1/Report5.aspx">Booking Information</a></li>
+                                <li><a class="dropdown-item" href="/NewFolder1/Report6.aspx">Package Details</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <asp:LoginView ID="LoginView1" runat="server">
+                            <AnonymousTemplate>
+                                <li class="nav-item"><a class="nav-link" href="Register.aspx">Register</a></li>
+                                <li class="nav-item"><a class="nav-link" href="Login.aspx">Login</a></li>
+                            </AnonymousTemplate>
+                            <LoggedInTemplate>
+                                <span class="navbar-text">
+                                    <asp:LoginName ID="LoginName1" runat="server" />
+                                </span>
+                                <li class="nav-item">
+                                    <asp:LinkButton CssClass="nav-link" ID="LinkButton1" runat="server">Logout</asp:LinkButton></li>
+                            </LoggedInTemplate>
+                        </asp:LoginView>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                <ul class="navbar-nav bg-light list">
+                    <li class="nav-item item "><a class="nav-link" href="/Info/Travelagents.aspx">Travelagents</a></li>
+                    <li class="nav-item item"><a class="nav-link" href="/Info/TourePackages.aspx">TourePackage</a></li>
+                    <li class="nav-item item"><a class="nav-link" href="/Info/Tourists.aspx">Tourists</a></li>
+                    <li class="nav-item item"><a class="nav-link" href="/Info/Transports.aspx">Transports</a></li>
+                    <li class="nav-item item"><a class="nav-link" href="/Info/Hotels.aspx">Hotel</a></li>
+                    
+                    <li class="nav-item item"><a class="nav-link" href="/Info/WebMasterD.aspx">MasterDetails</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <asp:ContentPlaceHolder ID="body" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <asp:ContentPlaceHolder ID="foot" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

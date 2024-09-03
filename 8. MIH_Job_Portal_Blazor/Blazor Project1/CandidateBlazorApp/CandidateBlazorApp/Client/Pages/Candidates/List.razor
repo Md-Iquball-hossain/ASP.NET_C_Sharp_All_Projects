@@ -1,0 +1,75 @@
+﻿@page "/Candidates/List"
+@inject HttpClient http
+@inject IJSRuntime JS
+<div class="row">
+    <div class="col-12">
+        @if (Candidates is null)
+        {
+            <div>Loading...</div>
+        }
+        else
+        {
+            <div class="d-flex justify-content-between align-items-center mb-1">
+                <h3>Candidates</h3>
+                <a href="/Candidates/Create" class="btn btn-primary btn-sm">Add New</a>
+            </div>
+            <table class="table table-bordered">
+                <thead class="bg-light">
+                    <tr>
+                        <th>Picture</th>
+                        <th>Candidate Name</th>
+                        <th>Date Of Birth</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+               <tbody>
+                    @foreach (var d in Candidates)
+                    {
+                        <tr>
+                            <td class="text-center"><img class="rounded-circle" src="/Pictures/@d.Picture" style="width:40px" /></td>
+                            <td><a href="/CandidateInfo/@d.CandidateId">@d.CandidateName</a></td>
+                            <td>@string.Format($"{d.DateOfBirth:yyyy-MM-dd}")</td>
+                            <td>@d.Email</td>
+                            <td>@d.Phone</td>
+                            <td>
+                                <a class="btn btn-success btn-sm" href="/Candidates/Edit/@d.CandidateId">Edit</a>
+                                <button class="btn btn-danger btn-sm" @onclick="() => DelIt(d.CandidateId)">Delete</button>
+                            </td>
+                        </tr>
+                    }
+               </tbody>
+            </table>
+        }
+    </div>
+</div>
+
+@code {
+    private List<Candidate> Candidates = null!;
+    protected async override Task OnInitializedAsync()
+    {
+        var data = await this.http.GetFromJsonAsync<List<Candidate>>("/api/Candidates");
+        if(data is not null)
+        {
+            this.Candidates = data;
+        }
+    }
+    private async Task DelIt(int id)
+    {
+        var ok = await JS.InvokeAsync<bool>("confirm", "Are you sure?");
+        if (ok)
+        {
+            var response = await http.DeleteAsync($"api/Candidates/{id}");
+            if(response.IsSuccessStatusCode)
+            {
+                var index = Candidates.FindIndex(x => x.CandidateId == id);
+                if(index >= 0)
+                {
+                    Candidates.RemoveAt(index);
+                }
+            }
+        }
+    }
+    
+}

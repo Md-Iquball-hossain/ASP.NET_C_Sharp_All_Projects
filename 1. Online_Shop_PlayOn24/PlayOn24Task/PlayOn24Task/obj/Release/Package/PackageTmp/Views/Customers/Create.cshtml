@@ -1,0 +1,41 @@
+﻿@model PlayOn24Task.Models.Customer
+@{
+    ViewBag.Title = "Create";
+}
+<h2 class="text-bg-success text-center">Insert New Customers Information</h2>
+<div>&nbsp;</div>
+<div class="row">
+    <div class="col-12">
+        @using (Html.BeginForm("Create", "Customers", FormMethod.Post))
+        {
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.CustomerName, new { @class = "col-form-label col-2" })
+                <div class="col-4">
+                    @Html.TextBoxFor(x => x.CustomerName, new { @class = "form-control", list = "custs" })
+                    @Html.ValidationMessageFor(x => x.CustomerName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.Address, new { @class = "col-form-label col-2" })
+                <div class="col-4">
+                    @Html.TextBoxFor(x => x.Address, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Address, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div>&nbsp;</div>
+
+            <div class="col-6">
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<div>&nbsp;</div>
+<div class="col-12 d-flex justify-content-center">
+    @Html.ActionLink("Back to list", "Index", new { }, new { @class = "btn btn-info" })
+</div>
+<div>&nbsp;</div>

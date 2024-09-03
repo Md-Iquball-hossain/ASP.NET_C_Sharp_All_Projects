@@ -1,0 +1,7 @@
+﻿[*.{cs,vb}]
+
+# IDE0037: Use inferred member name
+dotnet_diagnostic.IDE0037.severity = silent
+
+# CS8619: Nullability of reference types in value doesn't match target type.
+dotnet_diagnostic.CS8619.severity = none

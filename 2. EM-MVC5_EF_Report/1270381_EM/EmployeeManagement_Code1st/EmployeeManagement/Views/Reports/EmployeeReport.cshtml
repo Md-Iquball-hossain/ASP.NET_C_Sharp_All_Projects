@@ -1,0 +1,45 @@
+﻿@model IEnumerable<EmployeeManagement.Models.Employee>
+@{
+    ViewBag.Title = "Employee Report";
+
+}
+
+<div class="row">
+    <div class="col-12">
+        <h3>Employees Information</h3>
+        <table class="table table-bordered">
+            <thead class="table-light">
+                <tr>
+                    <th>Employee Name</th>
+                    <th>Date of birth</th>
+                    <th>Applied For</th>
+                    <th>Expected Salary</th>
+                    <th>Work from home?</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var c in Model)
+                {
+                    <tr id="tr_@c.EmployeeId" style="vertical-align:middle">
+                        <td>@c.EmployeeName</td>
+                        <td>@c.BirthDate.ToString("yyyy-MM-dd")</td>
+                        <td>@c.AppliedFor</td>
+                        <td>@c.ExpectedSalary.ToString("0.00")</td>
+                        <td>@(c.WorkFromHome ? "Yes": "No")</td>
+                        <td>
+                            <img class="rounded" src="~/Pictures/@c.Picture" style="width:50px" />
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-12 text-center">
+        @Html.ActionLink("Employee Report PDF View", "EmployeePDF", "Reports", new { }, new { @class = "btn btn-info btn-sm" })
+    </div>
+    <div>&nbsp;</div>
+</div>
+
+
+

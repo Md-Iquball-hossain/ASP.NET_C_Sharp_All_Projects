@@ -1,0 +1,76 @@
+
+.cr1 {
+  display: flex;
+  margin: 20px 0;
+}
+
+.c1 {
+  width: 50%;
+  margin-left: 15px;
+}
+.c2{
+  width: 98%;
+}
+
+.box {
+  margin-bottom: 0.5rem;
+  display: flex;
+}
+
+.box input[type="text"],
+input[type="number"],
+textarea {
+  flex: 1 1 auto;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: rgb(227, 202, 247);
+}
+
+.table {
+  width: 98%;
+  border: solid 1px rgb(63, 75, 241);
+  border-collapse: separate;
+
+}
+
+.table th,
+td {
+  padding: .5rem;
+  border: solid 1px rgb(150, 17, 238);
+}
+
+thead {
+  background-color: rgb(252, 86, 86);
+  color: black
+}
+
+tbody {
+  background-color: rgb(230, 241, 234);
+  color: black;
+}
+
+.btn {
+  background-color: rgb(57, 187, 247);
+  color: black;
+  font-weight: bolder;
+  border-radius: .2rem;
+
+}
+
+.pro {
+  background-color: rgb(47, 13, 240);
+  color: aliceblue;
+  text-align: center;
+  padding: 5px;
+  width: 98%;
+
+}
+
+.upp {
+  background-color: rgb(47, 13, 240);
+  color: aliceblue;
+  text-align: center;
+  padding: 5px;
+  margin-bottom:10px ;
+
+}

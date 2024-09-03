@@ -1,0 +1,711 @@
+﻿@page "/Candidates/Create"
+@inject HttpClient http
+<div class="row">
+    <div class="col-12">
+        <div class=" text-center text-light  bg-primary shadow p-3 mb-4">
+            <h4 class="">Job Application Online Form </h4>
+
+        </div>
+        <EditForm Model="@candidate" OnValidSubmit="Save">
+            <DataAnnotationsValidator />
+
+            @if (candidate != null)
+            {
+                @if (isError is not null && msg != "" && !isError.Value)
+                {
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <strong>Success!</strong> Data saved.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+                @if (isError is not null && msg != "" && isError.Value)
+                {
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <strong>Failed!</strong> Failed to save data.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group row mb-1">
+                            <label class="col-form-label col-form-label-sm col-4">Candidate Name</label>
+                            <div class="col-8">
+                                <InputText class="form-control form-control-sm" @bind-Value="candidate.CandidateName" />
+                                <ValidationMessage For="@(()=> candidate.CandidateName)" class="text-danger" />
+                            </div>
+
+                        </div>
+                        <div class="form-group row mb-1">
+                            <label class="col-form-label col-form-label-sm col-4">Date Of Birth</label>
+                            <div class="col-8">
+                                <InputDate Type="InputDateType.Date" class="form-control form-control-sm" @bind-Value="candidate.DateOfBirth" />
+                                <ValidationMessage For="@(()=> candidate.DateOfBirth)" class="text-danger" />
+                            </div>
+
+                        </div>
+                        <div class="form-group row mb-1">
+                            <label class="col-form-label col-form-label-sm col-4">Email</label>
+                            <div class="col-8">
+                                <InputText class="form-control form-control-sm" @bind-Value="candidate.Email" />
+                                <ValidationMessage For="@(()=> candidate.Email)" class="text-danger" />
+                            </div>
+
+                        </div>
+                        <div class="form-group row mb-1">
+                            <label class="col-form-label col-form-label-sm col-4">Phone</label>
+                            <div class="col-8">
+                                <InputText class="form-control form-control-sm" @bind-Value="candidate.Phone" />
+                                <ValidationMessage For="@(()=> candidate.Phone)" class="text-danger" />
+                            </div>
+
+                        </div>
+                        <div class="form-group row mb-1">
+                            <label class="col-form-label col-form-label-sm col-4">Picture</label>
+                            <div class="col-8">
+                                <InputFile OnChange="@OnInputFileChange" class="form-control form-control-sm" />
+                                <input type="hidden" @bind="candidate.Picture" />
+                                <ValidationMessage For="@(()=> candidate.Picture)" class="text-danger" />
+                            </div>
+                        </div>
+
+
+                        <div class="form-group row mb-1">
+                            <label class="col-form-label col-form-label-sm col-4">Application For</label>
+                            <div class="col-8">
+                                <InputText class="form-control form-control-sm" @bind-Value="candidate.JobDetail.ApplicationFor" />
+                                <ValidationMessage For="@(()=> candidate.JobDetail.ApplicationFor)" class="text-danger" />
+                            </div>
+
+                        </div>
+                        <div class="form-group row mb-1">
+                            <label class="col-form-label col-form-label-sm col-4">Expected Salary</label>
+                            <div class="col-8">
+                                <InputNumber class="form-control form-control-sm" @bind-Value="candidate.JobDetail.ExpectedSalary" />
+                                <ValidationMessage For="@(()=> candidate.JobDetail.ExpectedSalary)" class="text-danger" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group row mb-1">
+                            <label class="col-form-label col-form-label-sm col-4">Father Name</label>
+                            <div class="col-8">
+                                <InputText class="form-control form-control-sm" @bind-Value="candidate.PersonalInfo.FatherName" />
+                                <ValidationMessage For="@(()=> candidate.PersonalInfo.FatherName)" class="text-danger" />
+                            </div>
+
+                        </div>
+                        <div class="form-group row mb-1">
+                            <label class="col-form-label col-form-label-sm col-4">Mother Name</label>
+                            <div class="col-8">
+                                <InputText class="form-control form-control-sm" @bind-Value="candidate.PersonalInfo.MotherName" />
+                                <ValidationMessage For="@(()=> candidate.PersonalInfo.MotherName)" class="text-danger" />
+                            </div>
+
+                        </div>
+                        <div class="form-group row mb-1">
+                            <label class="col-form-label col-form-label-sm col-4">Gender</label>
+
+                            <div class="col-8">
+                                <InputSelect @bind-Value="candidate.PersonalInfo.Gender" class="form-select form-select-sm">
+
+                                    @foreach (var gender in Enum.GetValues(typeof(Gender)))
+                                    {
+
+                                        <option value="@gender">@gender</option>
+                                    }
+                                </InputSelect>
+                            </div>
+
+                            <ValidationMessage For="@(() => candidate.PersonalInfo.Gender)" />
+                        </div>
+                        <div class="form-group row mb-1">
+                            <label class="col-form-label col-form-label-sm col-4">Marital Status</label>
+
+                            <div class="col-8">
+                                <InputSelect @bind-Value="candidate.PersonalInfo.MaritalStatus" class="form-select form-select-sm">
+
+                                    @foreach (var m in Enum.GetValues(typeof(MaritalStatus)))
+                                    {
+
+                                        <option value="@m">@m</option>
+                                    }
+                                </InputSelect>
+                            </div>
+
+                            <ValidationMessage For="@(() => candidate.PersonalInfo.MaritalStatus)" />
+                        </div>
+                        <div class="form-group row mb-1">
+                            <label class="col-form-label col-form-label-sm col-4">Religion</label>
+
+                            <div class="col-8">
+                                <InputSelect @bind-Value="candidate.PersonalInfo.Religion" class="form-select form-select-sm">
+
+                                    @foreach (var r in Enum.GetValues(typeof(Religion)))
+                                    {
+
+                                        <option value="@r">@r</option>
+                                    }
+                                </InputSelect>
+                            </div>
+
+                            <ValidationMessage For="@(() => candidate.PersonalInfo.Religion)" />
+                        </div>
+                        <div class="form-group row mb-1">
+                            <label class="col-form-label col-form-label-sm col-4">Present Address</label>
+                            <div class="col-8">
+                                <InputText class="form-control form-control-sm" @bind-Value="candidate.PersonalInfo.PresentAddress" />
+                                <ValidationMessage For="@(()=> candidate.PersonalInfo.PresentAddress)" class="text-danger" />
+                            </div>
+
+                        </div>
+                        <div class="form-group row mb-1">
+                            <label class="col-form-label col-form-label-sm col-4">Permanent Address </label>
+                            <div class="col-8">
+                                <InputText class="form-control form-control-sm" @bind-Value="candidate.PersonalInfo.PermanentAddress" />
+                                <ValidationMessage For="@(()=> candidate.PersonalInfo.PermanentAddress)" class="text-danger" />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-between bg-secondary text-light shadow p-1 mb-2">
+                            <div>Add Educations</div>
+                            <div>
+                                <button @onclick="@AddEducations" type="button" class="btn bg-light btn-sm">+</button>
+                            </div>
+
+                        </div>
+                        <table class="table table-bordered table-striped shadow">
+                            <thead class="bg-info text-light" >
+                                <tr>
+                                    <th>Degree</th>
+                                    <th>Subject</th>
+                                    <th>Institute</th>
+                                    <th>CGPA</th>
+                                    <th>Passing</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (candidate.Educations != null)
+                                {
+                                    @foreach (var s in candidate.Educations)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <InputText class="form-control form-control-sm" @bind-Value="s.Degree" />
+                                                <ValidationMessage For="@(()=> s.Degree)" class="text-danger" />
+                                            </td>
+                                            <td>
+                                                <InputText class="form-control form-control-sm" @bind-Value="s.MajorSubject" />
+                                                <ValidationMessage For="@(()=> s.MajorSubject)" class="text-danger" />
+                                            </td>
+                                            <td>
+                                                <InputText class="form-control form-control-sm" @bind-Value="s.Institute" />
+                                                <ValidationMessage For="@(()=> s.Institute)" class="text-danger" />
+                                            </td>
+                                            <td>
+                                                <InputText class="form-control form-control-sm" @bind-Value="s.CGPA" />
+                                                <ValidationMessage For="@(()=> s.CGPA)" class="text-danger" />
+                                            </td>
+                                            <td>
+                                                <InputNumber class="form-control form-control-sm" @bind-Value="s.PassingYear" />
+                                                <ValidationMessage For="@(()=> s.PassingYear)" class="text-danger" />
+                                            </td>
+                                            <td>
+                                                <button @onclick="@(()=>RemoveEducation(@s))" type="button" class="btn btn-outline-danger btn-sm">X</button>
+                                            </td>
+                                        </tr>
+
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex justify-content-between bg-secondary  text-light shadow p-1 mb-2">
+                            <div >Add Experience</div>
+                            <div>
+                                <button @onclick="@AddExperiences" type="button" class="btn btn-light btn-sm">+</button>
+                            </div>
+
+                        </div>
+                        <table class="table table-bordered table-striped">
+                            <thead class="bg-info text-light">
+                                <tr>
+                                    <th>Company Name</th>
+                                    <th>Position</th>
+                                    <th>Start Date</th>
+                                    <th>End Date</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (candidate.Experiences != null)
+                                {
+                                    @foreach (var s in candidate.Experiences)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <InputText class="form-control form-control-sm" @bind-Value="s.CompanyName" />
+                                                <ValidationMessage For="@(()=> s.CompanyName)" class="text-danger" />
+                                            </td>
+                                            <td>
+                                                <InputText class="form-control form-control-sm" @bind-Value="s.Position" />
+                                                <ValidationMessage For="@(()=> s.Position)" class="text-danger" />
+                                            </td>
+                                            <td>
+                                                <InputDate Type="InputDateType.Date" class="form-control form-control-sm" @bind-Value="s.StartDate" />
+                                                <ValidationMessage For="@(()=> s.StartDate)" class="text-danger" />
+                                            </td>
+                                            <td>
+                                                <InputDate Type="InputDateType.Date" class="form-control form-control-sm" @bind-Value="s.EndDate" />
+                                                <ValidationMessage For="@(()=> s.EndDate)" class="text-danger" />
+                                            </td>
+                                            <td>
+                                                <button @onclick="@(()=>RemoveExperiences(@s))" type="button" class="btn btn-outline-danger btn-sm">X</button>
+                                            </td>
+                                        </tr>
+
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex justify-content-between bg-secondary text-light shadow p-1 mb-2">
+                        <div>Add Training</div>
+                        <div>
+                            <button @onclick="@AddTraining" type="button" class="btn btn-light btn-sm">+</button>
+                        </div>
+
+                    </div>
+                    <table class="table table-bordered table-striped">
+                        <thead class="bg-info text-light">
+                            <tr>
+                                <th>Training Name</th>
+                                <th>Institute</th>
+                                <th> Duration </th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (candidate.Training != null)
+                            {
+                                @foreach (var s in candidate.Training)
+                                {
+                                    <tr>
+                                        <td>
+                                            <InputText class="form-control form-control-sm" @bind-Value="s.TrainingName" />
+                                            <ValidationMessage For="@(()=> s.TrainingName)" class="text-danger" />
+                                        </td>
+                                        <td>
+                                            <InputText class="form-control form-control-sm" @bind-Value="s.Institute" />
+                                            <ValidationMessage For="@(()=> s.Institute)" class="text-danger" />
+                                        </td>
+                                        <td>
+                                            <InputText class="form-control form-control-sm" @bind-Value="s.Duration" />
+                                            <ValidationMessage For="@(()=> s.Duration)" class="text-danger" />
+                                        </td>
+                                        <td>
+                                            <button @onclick="@(()=>RemoveTraining(@s))" type="button" class="btn btn-outline-danger btn-sm">X</button>
+                                        </td>
+                                    </tr>
+
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex justify-content-between bg-secondary text-light shadow p-1 mb-2">
+                        <div>Add Projects</div>
+                        <div>
+                            <button @onclick="@AddProjects" type="button" class="btn btn-light btn-sm">+</button>
+                        </div>
+
+                    </div>
+
+                    <table class="table table-bordered table-striped">
+                        <thead class="bg-info text-light">
+                            <tr>
+                                <th>Project Name</th>
+                                <th>Description</th>
+                                <th> Project Link </th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (candidate.Projects != null)
+                            {
+                                @foreach (var s in candidate.Projects)
+                                {
+                                    <tr>
+                                        <td>
+                                            <InputText class="form-control form-control-sm" @bind-Value="s.ProjectName" />
+                                            <ValidationMessage For="@(()=> s.ProjectName)" class="text-danger" />
+                                        </td>
+                                        <td>
+                                            <InputText class="form-control form-control-sm" @bind-Value="s.Description" />
+                                            <ValidationMessage For="@(()=> s.Description)" class="text-danger" />
+                                        </td>
+                                        <td>
+                                            <InputText class="form-control form-control-sm" @bind-Value="s.ProjectLink" />
+                                            <ValidationMessage For="@(()=> s.ProjectLink)" class="text-danger" />
+                                        </td>
+                                        <td>
+                                            <button @onclick="@(()=>RemoveProjects(@s))" type="button" class="btn btn-outline-danger btn-sm">X</button>
+                                        </td>
+                                    </tr>
+
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-between bg-secondary text-light shadow p-1 mb-2">
+                            <div>Add References</div>
+                            <div>
+                                <button @onclick="@AddReferences" type="button" class="btn btn-light btn-sm">+</button>
+                            </div>
+
+                        </div>
+                        <table class="table table-bordered table-striped">
+                            <thead class="bg-info text-light">
+                                <tr>
+                                    <th>Reference Name</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>Relation</th>
+                                    <th>Description</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (candidate.References != null)
+                                {
+                                    @foreach (var s in candidate.References)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <InputText class="form-control form-control-sm" @bind-Value="s.ReferenceName" />
+                                                <ValidationMessage For="@(()=> s.ReferenceName)" class="text-danger" />
+                                            </td>
+                                            <td>
+                                                <InputText class="form-control form-control-sm" @bind-Value="s.Email" />
+                                                <ValidationMessage For="@(()=> s.Email)" class="text-danger" />
+                                            </td>
+                                            <td>
+                                                <InputText class="form-control form-control-sm" @bind-Value="s.Phone" />
+                                                <ValidationMessage For="@(()=> s.Phone)" class="text-danger" />
+                                            </td>
+                                            <td>
+                                                <InputText class="form-control form-control-sm" @bind-Value="s.Relation" />
+                                                <ValidationMessage For="@(()=> s.Relation)" class="text-danger" />
+                                            </td>
+                                            <td>
+                                                <InputText class="form-control form-control-sm" @bind-Value="s.Description" />
+                                                <ValidationMessage For="@(()=> s.Description)" class="text-danger" />
+                                            </td>
+                                            <td>
+                                                 <button @onclick="@(()=>RemoveReferences(@s))" type="button" class="btn btn-outline-danger btn-sm">X</button>
+                                            </td>
+                                        </tr>
+
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="d-flex justify-content-between bg-secondary text-light shadow p-1 mb-2">
+                                    <div>Add Skills</div>
+                                    <div>
+                                        <button @onclick="@AddSkills" type="button" class="btn btn-light ">+</button>
+                                    </div>
+
+                                </div>
+                                <table class="table table-bordered table-striped">
+                                    <thead class="bg-info text-light">
+                                        <tr>
+                                            <th>Skill Name</th>
+                                            <th>Description</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @if (candidate.Skills != null)
+                                        {
+                                            @foreach (var s in candidate.Skills)
+                                            {
+                                                <tr>
+                                                    <td>
+                                                        <InputText class="form-control form-control-sm" @bind-Value="s.SkillName" />
+                                                        <ValidationMessage For="@(()=> s.SkillName)" class="text-danger" />
+                                                    </td>
+                                                    <td>
+                                                        <InputText class="form-control form-control-sm" @bind-Value="s.Description" />
+                                                        <ValidationMessage For="@(()=> s.Description)" class="text-danger" />
+                                                    </td>
+                                                    <td>
+                                                        <button @onclick="@(()=>RemoveSkills(@s))" type="button" class="btn btn-outline-danger btn-sm">X</button>
+                                                    </td>
+                                                </tr>
+
+                                            }
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex justify-content-between bg-secondary text-light shadow p-1 mb-2">
+                                    <div>Add Resumes</div>
+                                    <div>
+                                        <button @onclick="@AddResumes" type="button" class="btn btn-light btn-sm">+</button>
+                                    </div>
+
+                                </div>
+                                <table class="table table-bordered table-striped">
+                                    <thead class="bg-info text-light">
+                                        <tr>
+                                            <th>Upload Fill</th>
+                                            <th>Description</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @if (candidate.Resumes != null)
+                                        {
+                                            @foreach (var s in candidate.Resumes)
+                                            {
+                                                <tr>
+                                                    <td>
+                                                        <InputText class="form-control form-control-sm" @bind-Value="s.UploadFill" />
+                                                        <ValidationMessage For="@(()=> s.UploadFill)" class="text-danger" />
+                                                    </td>
+                                                    <td>
+                                                        <InputText class="form-control form-control-sm" @bind-Value="s.Description" />
+                                                        <ValidationMessage For="@(()=> s.Description)" class="text-danger" />
+                                                    </td>
+                                                    <td>
+                                                        <button @onclick="@(()=>RemoveResumes(@s))" type="button" class="btn btn-outline-danger btn-sm">X</button>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+
+                    <div class="col-12 text-end">
+                        <button type="submit" class="btn btn-primary btn-sm">Save</button>
+                    </div>
+
+                </div>
+            }
+        </EditForm>
+    </div>
+</div>
+
+@code {
+    private Candidate candidate = new();
+    private IBrowserFile? selectedFile;
+    private bool? isError;
+    private string msg = "";
+    private void AddEducations()
+    {
+        if (candidate.Educations != null)
+        {
+            this.candidate.Educations.Add(new Education());
+        }
+
+    }
+    private void AddExperiences()
+    {
+        if (candidate.Experiences != null)
+        {
+            this.candidate.Experiences.Add(new Experience());
+        }
+
+    }
+    private void AddTraining()
+    {
+        if (candidate.Training != null)
+        {
+            this.candidate.Training.Add(new Training());
+        }
+
+    }
+    private void AddResumes()
+    {
+        if (candidate.Resumes != null)
+        {
+            this.candidate.Resumes.Add(new Resume());
+        }
+
+    }
+    private void AddSkills()
+    {
+        if (candidate.Skills != null)
+        {
+            this.candidate.Skills.Add(new Skill());
+        }
+
+    }
+    private void AddReferences()
+    {
+        if (candidate.References != null)
+        {
+            this.candidate.References.Add(new Reference());
+        }
+
+    }
+    private void AddProjects()
+    {
+        if (candidate.Projects != null)
+        {
+            this.candidate.Projects.Add(new Project());
+        }
+
+    }
+
+    private void RemoveEducation(Education e)
+    {
+        if(candidate.Educations != null)
+        {
+            candidate.Educations.Remove(e);
+        }
+
+    }
+    private void RemoveExperiences(Experience e)
+    {
+                if(candidate.Experiences != null)
+        {
+                    candidate.Experiences.Remove(e);
+        }
+
+    }
+    private void RemoveSkills(Skill e)
+    {
+        if (candidate.Skills != null)
+        {
+        candidate.Skills.Remove(e);
+        }
+
+    }
+    private void RemoveTraining(Training e)
+    {
+        if (candidate.Training != null)
+        {
+            candidate.Training.Remove(e);
+        }
+
+    
+    }
+    private void RemoveProjects(Project e)
+    {
+        if (candidate.Projects != null)
+        {
+            candidate.Projects.Remove(e);
+        }
+
+
+    }
+        private void RemoveReferences(Reference e)
+    {
+        if (candidate.References != null)
+        {
+            candidate.References.Remove(e);
+        }
+
+
+    }
+    private void RemoveResumes(Resume e)
+    {
+        if (candidate.Resumes != null)
+        {
+            candidate.Resumes.Remove(e);
+        }
+
+
+    }
+    private void OnInputFileChange(InputFileChangeEventArgs e)
+    {
+        selectedFile = e.File;
+        candidate.Picture = e.File.Name;
+
+        //this.StateHasChanged();
+    }
+    protected override Task OnInitializedAsync()
+    {
+        AddEducations();
+        AddExperiences();
+        AddProjects();
+        AddTraining();
+        AddResumes();
+        AddSkills();
+        AddReferences();
+        return base.OnInitializedAsync();
+    }
+    private async Task Save()
+    {
+        isError = false;
+        msg = "";
+        var saveImage = await UploadItAsysnc();
+        candidate.Picture = saveImage.StoredFileName;
+        var response = await http.PostAsJsonAsync("api/Candidates", candidate);
+        if (response.IsSuccessStatusCode)
+        {
+            isError = false;
+            msg = "Ok";
+            candidate = new();
+            AddEducations();
+            AddExperiences();
+            AddProjects();
+            AddTraining();
+            AddResumes();
+            AddSkills();
+            AddReferences();
+        }
+        else
+        {
+            isError = true;
+            msg = "Failed";
+        }
+    }
+    private async Task<ImageUploadResponse> UploadItAsysnc()
+    {
+        using (var ms = new MemoryStream())
+        {
+
+            if (selectedFile is not null)
+            {
+                var content = new MultipartFormDataContent();
+                var fileContent = new StreamContent(selectedFile.OpenReadStream(long.MaxValue));
+
+                fileContent.Headers.ContentType = new MediaTypeHeaderValue(selectedFile.ContentType);
+                content.Add(content: fileContent, name: "\"file\"", fileName: selectedFile.Name);
+                var response = await http.PostAsync("api/Candidates/Upload", content);
+                var r = await response.Content.ReadFromJsonAsync<ImageUploadResponse>();
+                return r == null ? new ImageUploadResponse() : r;
+            }
+            else
+            {
+                return new ImageUploadResponse();
+            }
+
+        }
+    }
+}

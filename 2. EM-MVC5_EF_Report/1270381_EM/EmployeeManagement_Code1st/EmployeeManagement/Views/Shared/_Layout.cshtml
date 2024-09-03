@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <style>
+        body {
+            padding-top: 70px;
+        }
+    </style>
+    @RenderSection("styles", false)
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-success fixed-top shadow-sm border-bottom">
+        <div class="container-fluid">
+            <img src="~/Uploads/logo.jpeg" height="40" width="40" />
+            <span class="navbar-brand navbar-text text-white">Employee Management</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">@Html.ActionLink("Home", "Index", "Home", new { }, new { @class = "nav-link text-white btn btn-success btn-sm" })</li>
+                    <li class="nav-item">@Html.ActionLink("Create and Edit Employee Info", "Index", "Employee", new { }, new { @class = "nav-link text-white btn btn-success btn-sm" })</li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle text-white btn btn-success btn-sm" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span>Reports</span>
+                        </a>
+                        <ul class="dropdown-menu bg-warning" aria-labelledby="navbarDropdownMenuLink">
+                            <li class="nav-item ">@Html.ActionLink("EmployeeReport", "EmployeeReport", "Reports", new { }, new { @class = "nav-link text-white btn btn-primary btn-sm" })</li>
+                            <li class="nav-item">@Html.ActionLink("SkillReport", "SkillReport", "Reports", new { }, new { @class = "nav-link text-white btn btn-danger btn-sm" })</li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    @if (Request.IsAuthenticated)
+                    {
+                        <li class="nav-item">@Html.ActionLink("View Master Details (Crud) ", "Index", "Employee", new { }, new { @class = "nav-link text-white btn btn-success btn-sm" })</li>
+                        <li class="nav-item">@Html.ActionLink("Logout", "Index", "Home", new { }, new { @class = "nav-link text-white btn btn-success btn-sm" })</li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">@Html.ActionLink("Register", "Register", "Account", new { }, new { @class = "nav-link text-white btn btn-success btn-sm" })</li>
+                        <li class="nav-item">@Html.ActionLink("Login", "Login", "Account", new { }, new { @class = "nav-link text-white btn btn-success btn-sm" })</li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container-fluid" style="min-height:calc(100vh - 100px)">
+        @RenderBody()
+    </main>
+    <footer class="container-fluid text-center bg-success text-white">
+        <p>@DateTime.Today.ToString("MMM dd, yyyy") &copy; All Right Reserved By MIH</p>
+    </footer>
+    @RenderSection("scripts", false)
+</body>
+</html>
+

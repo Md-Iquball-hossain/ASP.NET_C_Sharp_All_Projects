@@ -1,0 +1,78 @@
+﻿@model ProductDeliveryManagement.Models.DeliveryPerson
+@{
+    ViewBag.Title = "Create";
+}
+
+<div class="row">
+    <div class="col-12">
+        <h3>Create new Delivery Person</h3>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert" id="alert" style="display:none">
+            <strong id="result">Success!</strong> <span id="msg"></span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        @using (Html.BeginForm("Create", "DeliveryPersons", FormMethod.Post, new { id = "frm" }))
+        {
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.Name, new { @class = "col-form-label col-2" })
+                <div class="col-4">
+                    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Name, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.Phone, new { @class = "col-form-label col-2" })
+                <div class="col-4">
+                    @Html.TextBoxFor(x => x.Phone, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Phone, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.Address, new { @class = "col-form-label col-2" })
+                <div class="col-4">
+                    @Html.TextBoxFor(x => x.Address, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Address, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group row mb-1">
+                <div class="col-4 offset-2">
+                    <button type="button" id="save" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        }
+    </div>
+    <div class="col-12">
+        @Html.ActionLink("Back to list", "Index")
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/Scripts/jquery-3.7.0.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script>
+        $(() => {
+            $("#save").click(() => {
+                let isValid = $("#frm").valid();
+                if (isValid) {
+                    let data = $("#frm").serialize();
+                    $.ajax({
+                        type: "POST",
+                        url: "/DeliveryPersons/Create",
+                        data: data,
+                        dataType: "json",
+                        success: (r) => {
+                            $("#msg").html(r.message);
+                            $("#alert").removeClass("alert-warning")
+                                .addClass("alert-success")
+                                .show();
+                            $("#frm").trigger('reset');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}
+

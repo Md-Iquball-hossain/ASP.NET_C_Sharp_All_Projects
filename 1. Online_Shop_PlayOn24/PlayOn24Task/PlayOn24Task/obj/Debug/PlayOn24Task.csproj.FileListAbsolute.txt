@@ -1,0 +1,495 @@
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\PlayOn24Task.dll.config
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\PlayOn24Task.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\PlayOn24Task.pdb
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\csc.exe
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\csc.exe.config
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\csc.rsp
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\csi.exe
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\csi.exe.config
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\csi.rsp
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Buffers.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Collections.Immutable.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Memory.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Numerics.Vectors.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Reflection.Metadata.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\vbc.exe
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\vbc.exe.config
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\vbc.rsp
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\VBCSCompiler.exe
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\roslyn\VBCSCompiler.exe.config
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\Antlr3.Runtime.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\EntityFramework.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\EntityFramework.SqlServer.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\Microsoft.Web.Infrastructure.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\Newtonsoft.Json.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\System.Web.Helpers.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\System.Web.Mvc.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\System.Web.Optimization.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\System.Web.Razor.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Deployment.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Razor.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\WebGrease.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\EntityFramework.xml
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\EntityFramework.SqlServer.xml
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\Newtonsoft.Json.xml
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\System.Web.Helpers.xml
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\System.Web.Mvc.xml
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\System.Web.Optimization.xml
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\System.Web.Razor.xml
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.xml
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Deployment.xml
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Razor.xml
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\Antlr3.Runtime.pdb
+D:\Iqubal\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.AssemblyReference.cache
+D:\Iqubal\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.CoreCompileInputs.cache
+D:\Iqubal\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.CopyComplete
+D:\Iqubal\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.pdb
+D:\Iqubal\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.Migrations.InitialCreate.resources
+D:\Iqubal\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.GenerateResource.cache
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportSource.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.Shared.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Iqubal\PlayOn24Task\PlayOn24Task\bin\stdole.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\PlayOn24Task.dll.config
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\PlayOn24Task.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\PlayOn24Task.pdb
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\csc.exe
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\csc.exe.config
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\csc.rsp
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\csi.exe
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\csi.exe.config
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\csi.rsp
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Buffers.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Memory.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\vbc.exe
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\vbc.exe.config
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\vbc.rsp
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\Antlr3.Runtime.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportSource.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.Shared.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\EntityFramework.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\EntityFramework.SqlServer.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\Newtonsoft.Json.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Helpers.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Mvc.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Optimization.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Razor.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\WebGrease.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\stdole.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\EntityFramework.xml
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\EntityFramework.SqlServer.xml
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\Newtonsoft.Json.xml
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Helpers.xml
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Mvc.xml
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Optimization.xml
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Razor.xml
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.xml
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\bin\Antlr3.Runtime.pdb
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.AssemblyReference.cache
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.Migrations.InitialCreate.resources
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.GenerateResource.cache
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.CoreCompileInputs.cache
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.CopyComplete
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.dll
+C:\Users\Rahim\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.pdb
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\PlayOn24Task.dll.config
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\PlayOn24Task.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\PlayOn24Task.pdb
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\csc.exe
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\csc.exe.config
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\csc.rsp
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\csi.exe
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\csi.exe.config
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\csi.rsp
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Buffers.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Memory.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\vbc.exe
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\vbc.exe.config
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\vbc.rsp
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\VBCSCompiler.exe
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\Antlr3.Runtime.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportSource.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.Shared.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\EntityFramework.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\EntityFramework.SqlServer.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\Newtonsoft.Json.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Helpers.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Mvc.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Optimization.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Razor.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Razor.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\WebGrease.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\stdole.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\EntityFramework.xml
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\EntityFramework.SqlServer.xml
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\Newtonsoft.Json.xml
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Helpers.xml
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Mvc.xml
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Optimization.xml
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Razor.xml
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.xml
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Razor.xml
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\bin\Antlr3.Runtime.pdb
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.AssemblyReference.cache
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.Migrations.InitialCreate.resources
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.GenerateResource.cache
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.CoreCompileInputs.cache
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.CopyComplete
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.dll
+C:\Users\Emon GD\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.pdb
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\PlayOn24Task.dll.config
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\PlayOn24Task.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\PlayOn24Task.pdb
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\csc.exe
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\csc.exe.config
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\csc.rsp
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\csi.exe
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\csi.exe.config
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\csi.rsp
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Buffers.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Memory.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\vbc.exe
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\vbc.exe.config
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\vbc.rsp
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\VBCSCompiler.exe
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\Antlr3.Runtime.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportSource.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.Shared.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\EntityFramework.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\EntityFramework.SqlServer.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\Newtonsoft.Json.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Helpers.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Mvc.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Optimization.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Razor.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Razor.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\WebGrease.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\stdole.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\EntityFramework.xml
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\EntityFramework.SqlServer.xml
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\Newtonsoft.Json.xml
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Helpers.xml
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Mvc.xml
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Optimization.xml
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.Razor.xml
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.xml
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Razor.xml
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\bin\Antlr3.Runtime.pdb
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.AssemblyReference.cache
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.Migrations.InitialCreate.resources
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.GenerateResource.cache
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.CoreCompileInputs.cache
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.CopyComplete
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.dll
+C:\Users\LAB104-07\Desktop\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.pdb
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\PlayOn24Task.dll.config
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\PlayOn24Task.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\PlayOn24Task.pdb
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\csc.exe
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\csc.exe.config
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\csc.rsp
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\csi.exe
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\csi.exe.config
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\csi.rsp
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.Managed.Core.targets
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Buffers.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Collections.Immutable.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Memory.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Numerics.Vectors.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Reflection.Metadata.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Text.Encoding.CodePages.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Threading.Tasks.Extensions.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\vbc.exe
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\vbc.exe.config
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\vbc.rsp
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\VBCSCompiler.exe
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\VBCSCompiler.exe.config
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\Antlr3.Runtime.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.CrystalReports.Engine.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportSource.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.Shared.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\EntityFramework.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\EntityFramework.SqlServer.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\Microsoft.Web.Infrastructure.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\Newtonsoft.Json.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.Helpers.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.Mvc.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.Optimization.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.Razor.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Deployment.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Razor.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\WebGrease.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\stdole.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\EntityFramework.xml
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\EntityFramework.SqlServer.xml
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\Newtonsoft.Json.xml
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.Helpers.xml
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.Mvc.xml
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.Optimization.xml
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.Razor.xml
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.xml
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Deployment.xml
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Razor.xml
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\Antlr3.Runtime.pdb
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.AssemblyReference.cache
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.Migrations.InitialCreate.resources
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.GenerateResource.cache
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.CoreCompileInputs.cache
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.CopyComplete
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.dll
+I:\Project\Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.pdb
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\PlayOn24Task.dll.config
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\PlayOn24Task.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\PlayOn24Task.pdb
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\csc.exe
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\csc.exe.config
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\csc.rsp
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\csi.exe
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\csi.exe.config
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\csi.rsp
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.Managed.Core.targets
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Buffers.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Collections.Immutable.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Memory.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Numerics.Vectors.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Reflection.Metadata.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\vbc.exe
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\vbc.exe.config
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\vbc.rsp
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\VBCSCompiler.exe
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\roslyn\VBCSCompiler.exe.config
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\Antlr3.Runtime.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\EntityFramework.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\EntityFramework.SqlServer.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\Microsoft.Web.Infrastructure.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\Newtonsoft.Json.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.Helpers.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.Mvc.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.Optimization.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.Razor.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Deployment.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Razor.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\WebGrease.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\stdole.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\EntityFramework.xml
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\EntityFramework.SqlServer.xml
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\Newtonsoft.Json.xml
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.Helpers.xml
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.Mvc.xml
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.Optimization.xml
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.Razor.xml
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.xml
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Deployment.xml
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\System.Web.WebPages.Razor.xml
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\bin\Antlr3.Runtime.pdb
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.AssemblyReference.cache
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.Migrations.InitialCreate.resources
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.GenerateResource.cache
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.CoreCompileInputs.cache
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.csproj.CopyComplete
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.dll
+E:\2. Module_Project\Best Project\1. Online_Shop_PlayOn24\PlayOn24Task\PlayOn24Task\obj\Debug\PlayOn24Task.pdb

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Administaion</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/upload.css" />
+
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+ 
+  <script>
+
+    $(() => {
+      var products = getProducts();
+      console.log(products);
+      showProducts(products);
+      $("#form").submit((ev) => {
+        ev.preventDefault();
+        products = getProducts();
+
+        var product = {
+          id: products.length + 1,
+          name: $("#name").val(),
+          price: $("#price").val(),
+          description: $("#desc").val(),
+        };
+        var f = document.getElementById("pic").files[0];
+        var reader = new FileReader();
+        reader.onload = () => {
+          product.picture = reader.result;
+          products.push(product);
+          localStorage.setItem("product-list", JSON.stringify(products));
+          $("#form").trigger('reset');
+          products = getProducts();
+          showProducts(products);
+        };
+        reader.readAsDataURL(f);
+      });
+    });
+    function getProducts() {
+      return localStorage.getItem("product-list") ? JSON.parse(localStorage.getItem("product-list")) : [];
+    }
+    function showProducts(products) {
+      $("#tbody").empty();
+      products.forEach(p => {
+        $("#tbody").append(`<tr>
+                    <td>${p.name}</td>
+                    <td>${p.price}</td>
+                    <td>${p.description}</td>
+                </tr>`);
+      });
+    }
+  </script>
+</head>
+
+<body>
+  <nav>
+    <span class="logo"><img src="uploads/mih.jpg" alt="not found"></span>
+    <span class="brand">MIH GUN Shop</span>
+    <span class="sp"></span>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Products.html">Products</a></li>
+      <li><a href="chat.html">Chat</a></li>
+      <li><a href="calcutator.html">Service</a></li>
+      <li><a href="details.html">About</a></li>
+    </ul>
+  </nav>
+  <div class="container main">
+    <div class="cr1">
+      <div class="c1">
+        <h3 class="pro">Products</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Price</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+
+          </tbody>
+        </table>
+      </div>
+      <div class="c1">
+        <div class="c2">
+          <h3 class="upp">Upload New Products</h3>
+          <form id="form">
+            <div class="box">
+              <input type="text" placeholder="Enter Name Of Products" id="name" required />
+            </div>
+            <div class="box">
+              <input type="number" placeholder="price in BDT" id="price" required />
+            </div>
+            <div class="box">
+              <textarea placeholder="details Of Product" id="desc" required></textarea>
+            </div>
+            <div class="box">
+              <input type="file" id="pic" required />
+            </div>
+            <div class="box">
+              <button type="submit" class="btn">Upload</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <p>&copy;Copyright 2022, All rights reserved MIH Group Ltd</p>
+  </footer>
+</body>
+
+</html>

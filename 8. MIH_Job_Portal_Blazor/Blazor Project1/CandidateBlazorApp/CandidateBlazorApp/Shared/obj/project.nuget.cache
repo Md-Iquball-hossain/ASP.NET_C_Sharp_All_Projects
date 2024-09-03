@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "6grAYzx/f6NyMNPYloXZYzw2tS72mMtro0p/mvZEVwuYTglRHPy/sSEj6AlIiWA/553UjMFuL4/BpF0NPebnhg==",
+  "success": false,
+  "projectFilePath": "E:\\2. Module_Project\\Best Project\\8. MIH_Job_Portal_Blazor\\Blazor Project1\\CandidateBlazorApp\\CandidateBlazorApp\\Shared\\CandidateBlazorApp.Shared.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.EntityFrameworkCore"
+    }
+  ]
+}

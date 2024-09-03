@@ -1,0 +1,84 @@
+﻿@model ProductDeliveryManagement.Models.Order
+@{
+    ViewBag.Title = "Create";
+}
+
+<div class="row">
+    <div class="col-12">
+        @using (Html.BeginForm())
+        {
+            <div>
+                <h3>Create new order</h3>
+            </div>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.OrderDate, new { @class = "col-form-label col-form-label-sm col-2 text-end" })
+                <div class="col-4">
+                    @Html.TextBoxFor(x => x.OrderDate, new { @class = "form-control form-control-sm date" })
+                    @Html.ValidationMessageFor(x => x.OrderDate, "", new { @class = "text-danger", style = "font-size:small" })
+                </div>
+
+            </div>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.CustomerName, new { @class = "col-form-label col-form-label-sm col-2 text-end" })
+                <div class="col-4">
+                    @Html.TextBoxFor(x => x.CustomerName, new { @class = "form-control form-control-sm" })
+                    @Html.ValidationMessageFor(x => x.CustomerName, "", new { @class = "text-danger", style = "font-size:small" })
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.CustomerAddress, new { @class = "col-form-label col-form-label-sm col-2 text-end" })
+                <div class="col-4">
+                    @Html.TextAreaFor(x => x.CustomerAddress, new { @class = "form-control form-control-sm" })
+                    @Html.ValidationMessageFor(x => x.CustomerAddress, "", new { @class = "text-danger", style = "font-size:small" })
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.CustomerPhone, new { @class = "col-form-label col-form-label-sm col-2 text-end" })
+                <div class="col-4">
+                    @Html.TextBoxFor(x => x.CustomerPhone, new { @class = "form-control form-control-sm" })
+                    @Html.ValidationMessageFor(x => x.CustomerPhone, "", new { @class = "text-danger", style = "font-size:small" })
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.ProductId, new { @class = "col-form-label col-form-label-sm col-2 text-end" })
+                <div class="col-4">
+                    @Html.DropDownListFor(x => x.ProductId, new SelectList(ViewBag.Products, "ProductId", "ProductName"), "--Select product--", new { @class = "form-select form-select-sm" })
+                    @Html.ValidationMessageFor(x => x.ProductId, "", new { @class = "text-danger", style = "font-size:small" })
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.Quantity, new { @class = "col-form-label col-form-label-sm col-2 text-end" })
+                <div class="col-4">
+                    @Html.TextBoxFor(x => x.Quantity, new { @class = "form-control form-control-sm" })
+                    @Html.ValidationMessageFor(x => x.Quantity, "", new { @class = "text-danger", style = "font-size:small" })
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+
+                <div class="col-4 offset-2 text-end">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+@section styles
+{
+    <link href="~/Content/bootstrap-datepicker.standalone.css" rel="stylesheet" />
+}
+@section scripts
+{
+    <script src="~/Scripts/jquery-3.7.0.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/bootstrap-datepicker.js"></script>
+    <script>
+        $(() => {
+            $("#OrderDate").datepicker({
+                format: "yyyy-mm-dd"
+            });
+        });
+    </script>
+}
+
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/in.css">
+    <link rel="stylesheet" href="styles/cal.css">
+</head>
+
+<body>
+    <nav>
+        <span class="logo"><img src="uploads/mih.jpg" alt="not found"></span>
+        <span class="brand">MIH GUN Shop</span>
+        <span class="sp"></span>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="chat.html">Chat</a></li>
+            <li><a href="calcutator.html">Service</a></li>
+            <li><a href="details.html">About</a></li>
+        </ul>
+    </nav>
+    <div class="container main">
+        <h1 class="header">Web Calculator</h1>
+
+            <div class="cal" id="calculator">
+                <input type="text" readonly="raadonly" /> <br />
+                <div >
+                    <button id="bt">7</button>
+                    <button id="bt">8</button>
+                    <button id="bt">9</button> <br />
+                    <button id="bt">4</button>
+                    <button id="bt">5</button>
+                    <button id="bt">6</button><br />
+                    <button id="bt">1</button>
+                    <button id="bt">2</button>
+                    <button id="bt">3</button> <br />
+                    <button id="bt">C</button>
+                    <button id="bt">0</button>
+                    <button id="bt">%</button> <br />
+                    <button id="bt">+</button>
+                    <button id="bt">-</button>
+                    <button id="bt">*</button> <br />
+                    <button id="bt">/</button>
+                    <button id="bt">.</button>
+                    <button id="bt">=</button>
+                </div>
+
+            </div>
+    </div>
+        <script>
+            let str = '';
+            let buttons = document.querySelectorAll('#bt');
+            Array.from(buttons).forEach((bt) => {
+                bt.addEventListener('click', (e) => {
+                    if (e.target.innerHTML == '=') {
+                        str = eval(str);
+                        document.querySelector('input').value = str;
+                    }
+                    else if (e.target.innerHTML == 'C') {
+                        str = '';
+                        document.querySelector('input').value = str;
+                    }
+                    else if (e.target.innerHTML == '%') {
+                        str = (eval(str)) / 100;
+                        document.querySelector('input').value = str;
+                    }
+                    else {
+                        console.log(e.target)
+                        str = str + e.target.innerHTML;
+                        document.querySelector('input').value = str;
+                    }
+
+                })
+            })
+        </script>
+        <footer>
+            <p>&copy; Copyright 2022, All rights reserved MIH Group Ltd .</p>
+        </footer>
+</body>
+
+</html>

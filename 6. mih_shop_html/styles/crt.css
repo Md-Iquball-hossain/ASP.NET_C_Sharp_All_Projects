@@ -1,0 +1,36 @@
+
+
+.table {
+    width: 98%;
+    border: solid 1px rgb(63, 75, 241);
+    border-collapse: separate;
+  
+  }
+  
+  table th,
+  td {
+    padding: .5rem;
+    border: solid 1px rgb(150, 17, 238);
+  }
+  
+  thead {
+    background-color: rgb(252, 86, 86);
+    color: black
+  }
+  
+  tbody {
+    background-color: rgb(154, 203, 231);
+    color: black;
+  }
+  
+
+.pro {
+    background-color: rgb(47, 13, 240);
+    color: aliceblue;
+    text-align: center;
+    padding: 5px;
+    width: 98%;
+    margin-top: 20px;
+    margin-bottom: 0;
+  
+  }

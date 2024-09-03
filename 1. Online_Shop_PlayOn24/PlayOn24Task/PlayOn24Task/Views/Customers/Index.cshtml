@@ -1,0 +1,36 @@
+﻿@model  IEnumerable<PlayOn24Task.Models.Customer>
+@{
+    ViewBag.Title = "Index";
+}
+<div class="row">
+    <div class="offset-3 col-6 ">
+        <h3 class="text-bg-secondary text-center" >Customers Details</h3>
+        <div>&nbsp;</div>
+        <div class="d-flex justify-content-center mb-1">
+            @Html.ActionLink("Create New Customer", "Create", "Customers", new { }, new { @class = "btn  btn-primary btn-sm" })
+        </div>
+        <div>&nbsp;</div>
+        <table class="table table-bordered text-center">
+            <thead>
+                <tr>
+                    <th>Customer Name</th>
+                    <th>Address</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var p in Model)
+                {
+                    <tr>
+                        <td>@p.CustomerName</td>
+                        <td>@p.Address</td>
+                        <td>
+                            <a href="/Customers/Delete/@p.CustomerId" class="btn btn-sm btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

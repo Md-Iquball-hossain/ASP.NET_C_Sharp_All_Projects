@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/Product.css" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css" />
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+
+  <script>
+    $(() => {
+      var products = localStorage.getItem("product-list")
+        ? JSON.parse(localStorage.getItem("product-list"))
+        : [];
+      var carts = sessionStorage.getItem("cart")
+        ? JSON.parse(sessionStorage.getItem("cart"))
+        : [];
+      // console.log(products)
+      products.forEach((p) => {
+        $('.page').prepend(`
+           
+            <div class="box">
+                <img src = "${p.picture}"/>
+               <div class="new" ><p>New</p></div>
+               <div class=" right red">
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+               </div>
+               <div>${p.description}</div>
+               <div class="red"> Price:<b> ${p.price} </b></div>
+               <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+                cart</button>
+           </div>
+          
+    `);
+        $('.cart').on('click', function () {
+          var pk = $(this).data('pk');
+          var pr = $(this).data('price');
+          var n = $(this).data('name');
+          var x = carts.filter(p => p.id == pk);
+          if (x && x.length > 0) {
+            x[0].qty = x[0].qty + 1;
+          }
+          else {
+            carts.push({ id: pk, name: n, price: pr, qty: 1 });
+          }
+          sessionStorage.setItem('cart', JSON.stringify(carts));
+          console.log(carts);
+        });
+
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <nav>
+    <span class="logo"><img src="uploads/mih.jpg" alt="not found"></span>
+    <span class="brand">MIH GUN Shop</span>
+    <span class="sp"></span>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Products.html">Products</a></li>
+      <li><a href="chat.html">Chat</a></li>
+      <li><a href="calcutator.html">Service</a></li>
+      <li><a href="details.html">About</a></li>
+    </ul>
+  </nav>
+
+  <div class="container main">
+    <div class="top">
+      <div class="crt">
+        <a href="cart.html"> cart</a>
+      </div>
+      <div class="uploadp">
+        <a href="upload.html">Upload Product</a>
+      </div>
+    </div>
+    <h1 class="p1">Products</h1>
+    <div class="page">
+      <div class="box">
+        <img src="images/1.png" />
+        <div class="new">
+          <p>New</p>
+        </div>
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <div>SKYHORSE The Illustrated Directory of Guns. </div>
+        <div class="red" id="pp"> Price:<b> 50,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/2.jpg" />
+        <div class="new">
+          <p>New</p>
+        </div>
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <div>A Collector's Guide to Over 1500 Military, Sporting, and Antique Firearms</div>
+        <div class="red"> Price:<b> 30,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/3.jpg" />
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <div> Norton & Company Guns, Germs, and Steel.</div>
+        <div class="red"> Price:<b> 50,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/4.jpg" />
+        <div class="new">
+          <p>New</p>
+        </div>
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <div>MIH Super Gun color Blue and Mixer</div>
+        <div class="red"> Price:<b> 25,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/5.jpg" />
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <div>MIH Super Gun color Blue and Mixer</div>
+        <div class="red"> Price:<b> 25,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/6.jpg" />
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <div>MIH2 Super Gun color Blue and Mixer</div>
+        <div class="red"> Price:<b> 25,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/7.jpg" />
+        <div class="new">
+          <p>New</p>
+        </div>
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <div>MIH3 Super Gun color Blue and Mixer</div>
+        <div class="red"> Price:<b> 60,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/8.jpg" />
+        <div class="new">
+          <p>New</p>
+        </div>
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <div>MIH Super Drone color White</div>
+        <div class="red"> Price:<b> 100,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/9.jpg" />
+        <div class="new">
+          <p>New</p>
+        </div>
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <div>MIH Super Drone color Silver</div>
+        <div class="red"> Price:<b> 120,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/11.jpg" />
+        <div class="new">
+          <p>New</p>
+        </div>
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <div>MIH Super Military Missile color Blue and Mixer</div>
+        <div class="red"> Price:<b> 500,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/12.jpg" />
+        <div class="new">
+          <p>New</p>
+        </div>
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <div>MIH Air Defence System color Silver and Black</div>
+        <div class="red"> Price:<b> 1500,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/13.jpg" />
+        <div class="new">
+          <p>New</p>
+        </div>
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <div>MIH Super Military Missile color Blue and Mixer</div>
+        <div class="red"> Price:<b> 550,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/14.jpg" />
+        <div class="new">
+          <p>New</p>
+        </div>
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <div>MIH Helicopter color silver</div>
+        <div class="red"> Price:<b> 600,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/15.jpg" />
+        <div class="new">
+          <p>New</p>
+        </div>
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <div>MIH Helicopter color Black</div>
+        <div class="red"> Price:<b> 550,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/16.jpg" />
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <div> Military Helicopter color Blue and mixer</div>
+        <div class="red"> Price:<b> 258,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/17.jpg" />
+        <div class="new">
+          <p>New</p>
+        </div>
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <div>MIH Military car color White</div>
+        <div class="red"> Price:<b> 367,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/18.jpg" />
+
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <div>MIH Super Gun color Black</div>
+        <div class="red"> Price:<b> 50,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/19.jpg" />
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <div>MIH Package Elements </div>
+        <div class="red"> Price:<b> 25,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/20.jpg" />
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <div>MIH Super Gun color Blue and Mixer</div>
+        <div class="red"> Price:<b> 650,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/21.jpg" />
+        <div class="new">
+          <p>New</p>
+        </div>
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <div>MIH Super Gun color Blue and Mixer</div>
+        <div class="red"> Price:<b> 55,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+      <div class="box">
+        <img src="images/22.jpg" />
+        <div class="new">
+          <p>New</p>
+        </div>
+        <div class=" right red">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <div>MIH Various Types of Missile</div>
+        <div class="red"> Price:<b> 550,000 BDT </b></div>
+        <button data-pk='${p.id}' data-name='${p.name}' data-price='${p.price}' type='button' class="cart">Add to
+          cart</button>
+      </div>
+
+    </div>
+    <footer class="footer">
+      <p>&copy; Copyright 2022, All rights reserved MIH Group Ltd</p>
+    </footer>
+</body>
+
+</html>

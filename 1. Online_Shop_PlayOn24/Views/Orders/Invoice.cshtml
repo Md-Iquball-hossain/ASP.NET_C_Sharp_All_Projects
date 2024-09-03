@@ -1,0 +1,62 @@
+﻿@model List<PlayOn24Task.ViewModels.InvoiceViewModel>
+@{
+    ViewBag.Title = "Invoice";
+}
+
+@foreach (var item in Model)
+{
+    <h3 class="text-bg-secondary text-center">Invoice Details For Crystal Report</h3>
+    <div class="row">
+        <div class="col-2">Bill Number</div>
+        <div class="col-10">@item.OrderId</div>
+    </div>
+    <div class="row">
+        <div class="col-2">Order Date</div>
+        <div class="col-10">@item.OrderDate.ToString("yyyy-MM-dd")</div>
+    </div>
+    <div class="row">
+        <div class="col-2">Customere</div>
+        <div class="col-10">@item.CustomerName</div>
+    </div>
+    <div class="row">
+        <div class="col-2">Address</div>
+        <div class="col-10">@item.Address</div>
+    </div>
+
+}
+<div class="row">
+    <div class="col-12">
+        <h4>Items</h4>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td>@item.Price</td>
+                        <td>@item.Quantity</td>
+                        <td>@(item.Price*item.Quantity)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        @using (Html.BeginForm("SaveInvoice", "Orders", FormMethod.Post))
+        {
+            <input type="hidden" name="id" value="@Model[0].OrderId" />
+            <button type="submit" class="btn btn-primary offset-5"> Save Invoice</button>
+        }
+    </div>
+    </div>
+<div>&nbsp;</div>
+<div class="col-12 d-flex justify-content-center">
+    @Html.ActionLink("Back to list", "Index", new { }, new { @class = "btn btn-info" })
+</div>
+<div>&nbsp;</div>

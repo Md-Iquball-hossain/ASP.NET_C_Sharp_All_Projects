@@ -1,0 +1,362 @@
+﻿@page "/CandidateInfo/{id:int}"
+@inject HttpClient http
+<div class=" text-center text-light  bg-primary shadow p-3 mb-4">
+    <h3>Candidate Information</h3>
+</div>
+<div class="row">
+    <div class="col-5">
+        <dl class="dl-horizontal">
+            <div class="row">
+                <dt class="col-4">
+                    Candidate Name
+                </dt>
+
+
+                <dd class="col-8">
+                    @Candidate.CandidateName
+                </dd>
+            </div>
+            <div class="row">
+                <dt class="col-4">
+                    Date Of Birth
+                </dt>
+
+
+                <dd class="col-8">
+                    @Candidate.DateOfBirth.ToString("yyyy-MMM-dd")
+                </dd>
+            </div>
+            <div class="row">
+                <dt class="col-4">
+                    Email
+                </dt>
+
+
+                <dd class="col-8">
+                    @Candidate.Email
+                </dd>
+            </div>
+            <div class="row">
+                <dt class="col-4">
+                    Phone
+                </dt>
+
+
+                <dd class="col-8">
+                    @Candidate.Phone
+                </dd>
+            </div>
+            @if (Candidate.JobDetail != null)
+            {
+                <div class="row">
+                    <dt class="col-4">
+                        Application For
+                    </dt>
+
+
+                    <dd class="col-8">
+                        @Candidate.JobDetail.ApplicationFor
+                    </dd>
+                </div>
+                <div class="row">
+                    <dt class="col-4">
+                        Expected Salary
+                    </dt>
+
+
+                    <dd class="col-8">
+                        @Candidate.JobDetail.ExpectedSalary.ToString("0.00")
+                    </dd>
+                </div>
+            }
+        </dl>
+    </div>
+    <div class="col-5">
+        <dl>
+            @if (Candidate.PersonalInfo != null)
+            {
+                <div class="row">
+                    <dt class="col-4">
+                        FatherName
+                    </dt>
+
+
+                    <dd class="col-8">
+                        @Candidate.PersonalInfo.FatherName
+                    </dd>
+                </div>
+                <div class="row">
+                    <dt class="col-4">
+                        MotherName
+                    </dt>
+
+
+                    <dd class="col-8">
+                        @Candidate.PersonalInfo.MotherName
+                    </dd>
+                </div>
+                <div class="row">
+                    <dt class="col-4">
+                        MaritalStatus
+                    </dt>
+
+
+                    <dd class="col-8">
+                        @Candidate.PersonalInfo.MaritalStatus
+                    </dd>
+                </div>
+                <div class="row">
+                    <dt class="col-4">
+                        Gender
+                    </dt>
+
+
+                    <dd class="col-8">
+                        @Candidate.PersonalInfo.Gender
+                    </dd>
+                </div>
+                <div class="row">
+                    <dt class="col-4">
+                        Religion
+                    </dt>
+
+
+                    <dd class="col-8">
+                        @Candidate.PersonalInfo.Religion
+                    </dd>
+                </div>
+                <div class="row">
+                    <dt class="col-4">
+                        PresentAddress
+                    </dt>
+
+
+                    <dd class="col-8">
+                        @Candidate.PersonalInfo.PresentAddress
+                    </dd>
+                </div>
+                <div class="row">
+                    <dt class="col-4">
+                        PermanentAddress
+                    </dt>
+
+
+                    <dd class="col-8">
+                        @Candidate.PersonalInfo.PermanentAddress
+                    </dd>
+                </div>
+            }
+        </dl>
+    </div>
+    <div class="col-2">
+        <img src="/Pictures/@Candidate.Picture" style="width:200px; height:200px;" class="img-thumbnail"/>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <div class=" text-center text-light  bg-secondary shadow p-1 mb-1">
+            <h6>Educational </h6>
+</div>
+        <table class="table table-bordered">
+            <thead class="bg-light">
+                <tr>
+                    <th>Degree</th>
+                    <th>MajorSubject</th>
+                    <th>Institute</th>
+                    <th>CGPA</th>
+                    <th>PassingYear</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Candidate.Educations != null)
+
+                    @for (int i = 0; i < Candidate.Educations.Count(); i++)
+                    {
+                        <tr>
+                            <td>@Candidate.Educations[i].Degree</td>
+                            <td>@Candidate.Educations[i].MajorSubject</td>
+                            <td>@Candidate.Educations[i].Institute</td>
+                            <td>@Candidate.Educations[i].CGPA</td>
+                            <td>@Candidate.Educations[i].PassingYear</td>
+                        </tr>
+                    }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-12">
+        <div class=" text-center text-light  bg-secondary shadow p-1 mb-1">
+            <h6>Experiences </h6>
+        </div>
+        <table class="table table-bordered">
+            <thead class="bg-light">
+                <tr>
+                    <th>Company Name</th>
+                    <th>Position</th>
+                    <th>Start Date</th>
+                    <th>CGPA</th>
+                    <th>End Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Candidate.Experiences != null)
+
+                    @for (int i = 0; i < Candidate.Experiences.Count(); i++)
+                    {
+                        <tr>
+                            <td>@Candidate.Experiences[i].CompanyName</td>
+                            <td>@Candidate.Experiences[i].Position</td>
+                            <td>@Candidate.Experiences[i].StartDate</td>
+                            <td>@Candidate.Experiences[i].EndDate</td>
+                        </tr>
+                    }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-12">
+        <div class=" text-center text-light  bg-secondary shadow p-1 mb-1">
+            <h6>Training </h6>
+        </div>
+        <table class="table table-bordered">
+            <thead class="bg-light">
+                <tr>
+                    <th>Company Name</th>
+                    <th>Position</th>
+                    <th>Start Date</th>
+                    <th>CGPA</th>
+                    <th>End Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Candidate.Training != null)
+
+                    @for (int i = 0; i < Candidate.Training.Count(); i++)
+                    {
+                        <tr>
+                            <td>@Candidate.Training[i].TrainingName</td>
+                            <td>@Candidate.Training[i].Institute</td>
+                            <td>@Candidate.Training[i].Duration</td>
+                        </tr>
+                    }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-12">
+        <div class=" text-center text-light  bg-secondary shadow p-1 mb-1">
+            <h6>Projects </h6>
+        </div>
+        <table class="table table-bordered">
+            <thead class="bg-light">
+                <tr>
+                    <th>Company Name</th>
+                    <th>Position</th>
+                    <th>Start Date</th>
+                    <th>CGPA</th>
+                    <th>End Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Candidate.Projects != null)
+
+                    @for (int i = 0; i < Candidate.Projects.Count(); i++)
+                    {
+                        <tr>
+                            <td>@Candidate.Projects[i].ProjectName</td>
+                            <td>@Candidate.Projects[i].Description</td>
+                            <td>@Candidate.Projects[i].ProjectLink</td>
+                        </tr>
+                    }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-12">
+        <div class=" text-center text-light  bg-secondary shadow p-1 mb-1">
+            <h6>References </h6>
+        </div>
+        <table class="table table-bordered">
+            <thead class="bg-light">
+                <tr>
+                    <th>Company Name</th>
+                    <th>Position</th>
+                    <th>Start Date</th>
+                    <th>CGPA</th>
+                    <th>End Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Candidate.References != null)
+
+                    @for (int i = 0; i < Candidate.References.Count(); i++)
+                    {
+                        <tr>
+                            <td>@Candidate.References[i].ReferenceName</td>
+                            <td>@Candidate.References[i].Email</td>
+                            <td>@Candidate.References[i].Phone</td>
+                            <td>@Candidate.References[i].Relation</td>
+                            <td>@Candidate.References[i].Description</td>
+                        </tr>
+                    }
+            </tbody>
+        </table>
+    </div>
+        <div class="col-6">
+        <div class=" text-center text-light  bg-secondary shadow p-1 mb-1">
+            <h6>Skills </h6>
+        </div>
+        <table class="table table-bordered">
+            <thead class="bg-light">
+                <tr>
+                    <th>Skill Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Candidate.Skills != null)
+
+                    @for (int i = 0; i < Candidate.Skills.Count(); i++)
+                    {
+                                <tr>
+                            <td>@Candidate.Skills[i].SkillName</td>
+                            <td>@Candidate.Skills[i].Description</td>
+                                </tr>
+                    }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-6">
+        <div class=" text-center text-light  bg-secondary shadow p-1 mb-1">
+            <h6>Resumes </h6>
+        </div>
+        <table class="table table-bordered">
+            <thead class="bg-light">
+                <tr>
+                    <th>Upload Fill</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Candidate.Resumes != null)
+
+                    @for (int i = 0; i < Candidate.Resumes.Count(); i++)
+                    {
+                        <tr>
+                            <td>@Candidate.Resumes[i].UploadFill</td>
+                            <td>@Candidate.Resumes[i].Description</td>
+                        </tr>
+                    }
+            </tbody>
+        </table>
+    </div>
+</div>
+@code {
+    [Parameter]
+    public int id { get; set; }
+    private Candidate Candidate = null!;
+    protected async override Task OnInitializedAsync()
+    {
+        var data = await this.http.GetFromJsonAsync<Candidate>($"/api/Candidates/{id}");
+        if (data is not null)
+        {
+            this.Candidate = data;
+        }
+    }
+}

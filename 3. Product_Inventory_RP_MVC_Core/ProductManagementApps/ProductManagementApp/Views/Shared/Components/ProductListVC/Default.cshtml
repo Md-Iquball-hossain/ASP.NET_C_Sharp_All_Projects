@@ -1,0 +1,94 @@
+﻿@model IEnumerable<Product>
+@using X.PagedList
+@using X.PagedList.Mvc.Core;
+@using X.PagedList.Web.Common
+
+<table class="table table-bordered">
+    <thead class="table-light">
+        <tr>
+            <th class="text-center"></th>
+            <th>Product image</th>
+            <th>Product name</th>
+            <th>Price</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td class="text-center" style="width:50px">
+                    <button type="button" class="btn btn-light btn-sm si"><i class="bi bi-chevron-right"></i></button>
+                    <button type="button" class="btn btn-light btn-sm hi" style="display:none"><i class="bi bi-chevron-down"></i></button>
+                </td>
+                <td class="text-center" style="padding:0; width:150px">
+                    <img src="~/Images/@p.Picture" class="rounded-circle" style="width:40px" />
+                </td>
+                <td>@p.Name</td>
+                <td>@p.UnitPrice / @p.SellUnit</td>
+                <td>
+                    <a asp-action="Edit" asp-controller="Products" asp-route-id="@p.ProductId" class="btn btn-success btn-sm"><i class="bi bi-pencil"></i></a>
+                    <button data-pk="@p.ProductId" class="btn btn-success btn-sm delp"><i class="bi bi-trash"></i></button>
+                </td>
+            </tr>
+            <tr style="display:none">
+                <td class="border-end-0"></td>
+                <td colspan="5" class="border-start-0">
+
+                    <div class="mb-2">
+                        <span style="font-weight:700" class="me-2">Inventories</span>  <span class="badge bg-success">
+                            @p.ProductInventories.Sum(x=> x.Quantity)
+                        </span>
+                    </div>
+                    <table class="table table-bordered">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Date</th>
+                                <th>Company</th>
+                                <th>Quantity</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var pi in p.ProductInventories)
+                            {
+                                <tr>
+                                    <td>@($"{pi.Date: yyyy-MM-dd}")</td>
+                                    <td>@pi.Company?.CompanyName</td>
+                                    <td>@pi.Quantity</td>
+                                    <td>
+                                        <a asp-controller="ProductInventories" asp-action="Edit" asp-route-id="@pi.ProductInventoryId" class="btn btn-success btn-sm"><i class="bi bi-pencil"></i></a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="d-flex justify-content-end">
+    @Html.PagedListPager((IPagedList)Model,
+    x=> Url.Action("ProductList", new{pg=x}),
+
+    PagedListRenderOptions.EnableUnobtrusiveAjaxReplacing(
+    new PagedListRenderOptions{
+    UlElementClasses = new string[] {"pagination", "pagination-sm"},
+    LiElementClasses = new string[] { "page-item" },
+    PageClasses = new string[] { "page-link" },
+    DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+    DisplayLinkToNextPage = PagedListDisplayMode.Always
+    },
+    new AjaxOptions{
+
+    HttpMethod="Get",
+    UpdateTargetId="div-products",
+    InsertionMode= InsertionMode.Replace
+
+    })
+    )
+</div>
+
+

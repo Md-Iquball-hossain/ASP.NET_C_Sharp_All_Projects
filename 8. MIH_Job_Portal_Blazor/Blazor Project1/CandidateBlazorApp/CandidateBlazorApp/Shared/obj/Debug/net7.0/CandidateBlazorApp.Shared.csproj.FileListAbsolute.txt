@@ -1,0 +1,87 @@
+C:\Users\Asdf1234\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.deps.json
+C:\Users\Asdf1234\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.dll
+C:\Users\Asdf1234\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.pdb
+C:\Users\Asdf1234\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.csproj.AssemblyReference.cache
+C:\Users\Asdf1234\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asdf1234\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.AssemblyInfoInputs.cache
+C:\Users\Asdf1234\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.AssemblyInfo.cs
+C:\Users\Asdf1234\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Asdf1234\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.dll
+C:\Users\Asdf1234\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\refint\CandidateBlazorApp.Shared.dll
+C:\Users\Asdf1234\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.pdb
+C:\Users\Asdf1234\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\ref\CandidateBlazorApp.Shared.dll
+C:\Users\Rahim\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.deps.json
+C:\Users\Rahim\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.dll
+C:\Users\Rahim\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.pdb
+C:\Users\Rahim\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.csproj.AssemblyReference.cache
+C:\Users\Rahim\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rahim\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.AssemblyInfoInputs.cache
+C:\Users\Rahim\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.AssemblyInfo.cs
+C:\Users\Rahim\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Rahim\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.dll
+C:\Users\Rahim\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\refint\CandidateBlazorApp.Shared.dll
+C:\Users\Rahim\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.pdb
+C:\Users\Rahim\Desktop\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\ref\CandidateBlazorApp.Shared.dll
+G:\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.deps.json
+G:\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.dll
+G:\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.pdb
+G:\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.csproj.AssemblyReference.cache
+G:\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+G:\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.AssemblyInfoInputs.cache
+G:\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.AssemblyInfo.cs
+G:\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.csproj.CoreCompileInputs.cache
+G:\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.dll
+G:\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\refint\CandidateBlazorApp.Shared.dll
+G:\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.pdb
+G:\Blazor Project\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\ref\CandidateBlazorApp.Shared.dll
+C:\Users\Asdf1234\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.deps.json
+C:\Users\Asdf1234\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.dll
+C:\Users\Asdf1234\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.pdb
+C:\Users\Asdf1234\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.csproj.AssemblyReference.cache
+C:\Users\Asdf1234\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asdf1234\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.AssemblyInfoInputs.cache
+C:\Users\Asdf1234\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.AssemblyInfo.cs
+C:\Users\Asdf1234\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Asdf1234\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.dll
+C:\Users\Asdf1234\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\refint\CandidateBlazorApp.Shared.dll
+C:\Users\Asdf1234\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.pdb
+C:\Users\Asdf1234\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\ref\CandidateBlazorApp.Shared.dll
+C:\Users\Rahim\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.deps.json
+C:\Users\Rahim\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.dll
+C:\Users\Rahim\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.pdb
+C:\Users\Rahim\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.csproj.AssemblyReference.cache
+C:\Users\Rahim\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rahim\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.AssemblyInfoInputs.cache
+C:\Users\Rahim\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.AssemblyInfo.cs
+C:\Users\Rahim\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Rahim\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.dll
+C:\Users\Rahim\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\refint\CandidateBlazorApp.Shared.dll
+C:\Users\Rahim\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.pdb
+C:\Users\Rahim\Desktop\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\ref\CandidateBlazorApp.Shared.dll
+E:\2. Module_Project\Job Project\Pro-Rahim Vai\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.deps.json
+E:\2. Module_Project\Job Project\Pro-Rahim Vai\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.dll
+E:\2. Module_Project\Job Project\Pro-Rahim Vai\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.pdb
+E:\2. Module_Project\Job Project\Pro-Rahim Vai\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.csproj.AssemblyReference.cache
+E:\2. Module_Project\Job Project\Pro-Rahim Vai\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\2. Module_Project\Job Project\Pro-Rahim Vai\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.AssemblyInfoInputs.cache
+E:\2. Module_Project\Job Project\Pro-Rahim Vai\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.AssemblyInfo.cs
+E:\2. Module_Project\Job Project\Pro-Rahim Vai\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.csproj.CoreCompileInputs.cache
+E:\2. Module_Project\Job Project\Pro-Rahim Vai\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.dll
+E:\2. Module_Project\Job Project\Pro-Rahim Vai\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\refint\CandidateBlazorApp.Shared.dll
+E:\2. Module_Project\Job Project\Pro-Rahim Vai\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.pdb
+E:\2. Module_Project\Job Project\Pro-Rahim Vai\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\ref\CandidateBlazorApp.Shared.dll
+I:\Project\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.deps.json
+I:\Project\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.dll
+I:\Project\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\bin\Debug\net7.0\CandidateBlazorApp.Shared.pdb
+I:\Project\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.csproj.AssemblyReference.cache
+I:\Project\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+I:\Project\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.AssemblyInfoInputs.cache
+I:\Project\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.AssemblyInfo.cs
+I:\Project\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.csproj.CoreCompileInputs.cache
+I:\Project\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.dll
+I:\Project\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\refint\CandidateBlazorApp.Shared.dll
+I:\Project\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.pdb
+I:\Project\Student From\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\ref\CandidateBlazorApp.Shared.dll
+E:\2. Module_Project\Best Project\8. MIH_Job_Portal_Blazor\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.dll
+E:\2. Module_Project\Best Project\8. MIH_Job_Portal_Blazor\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\refint\CandidateBlazorApp.Shared.dll
+E:\2. Module_Project\Best Project\8. MIH_Job_Portal_Blazor\Blazor Project1\CandidateBlazorApp\CandidateBlazorApp\Shared\obj\Debug\net7.0\CandidateBlazorApp.Shared.pdb

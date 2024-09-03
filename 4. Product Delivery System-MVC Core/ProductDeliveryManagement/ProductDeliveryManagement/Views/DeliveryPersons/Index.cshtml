@@ -1,0 +1,82 @@
+﻿@model IEnumerable<ProductDeliveryManagement.Models.DeliveryPerson>
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row">
+    <div class="col-12">
+        <h3>Delivery Persons</h3>
+        <div class="d-flex justify-content-end mb-1">
+            @Html.ActionLink("Create", "Create", "DeliveryPersons", new { @class = "btn btn-primary btn-sm" })
+        </div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Delivery Person Name</th>
+                    <th>Phone</th>
+                    <th>Address</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var d in Model)
+                {
+                    <tr id="tr_@d.DeliveryPersonId">
+                        <td>@d.Name</td>
+                        <td>@d.Phone</td>
+                        <td>@d.Address</td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", "DeliveryPersons", new { id = d.DeliveryPersonId }, new { @class = "btn btn-secondary btn-sm" })
+                            <button type="button" data-pk="@d.DeliveryPersonId" class="btn btn-danger btn-sm del">Delete</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="d-flex justify-content-end">
+            <ul class="pagination pagination-sm">
+                <li class="page-item">@Html.ActionLink("First", "Index", "DeliveryPersons", new { page = 1 }, new { @class = "page-link" })</li>
+                @for (var i = 1; i <= ViewBag.TotalPages; i++)
+                {
+
+                    if (ViewBag.Current == i)
+                    {
+                        <li class="page-item active">@Html.ActionLink(i.ToString(), "Index", "DeliveryPersons", new { page = i }, new { @class = "page-link" })</li>
+                    }
+                    else
+                    {
+                        <li class="page-item">@Html.ActionLink(i.ToString(), "Index", "DeliveryPersons", new { page = i }, new { @class = "page-link" })</li>
+                    }
+                }
+                <li class="page-item">@Html.ActionLink("Last", "Index", "DeliveryPersons", new { page = ViewBag.TotalPages }, new { @class = "page-link" })</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/Scripts/jquery-3.7.0.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script>
+        $(".del").click(function () {
+            var id = $(this).data('pk');
+            //console.log(id);
+            if (confirm("Are you sure to Delete?")) {
+                $.ajax({
+                    type: "POST",
+                    url: "/DeliveryPersons/Delete/" + id,
+                    dataType: "json",
+                    success: r => {
+                        console.log(r);
+                        if (r.success) {
+                            $("#tr_" + id).remove();
+                        }
+                    }
+                })
+            }
+        })
+    </script>
+}
+

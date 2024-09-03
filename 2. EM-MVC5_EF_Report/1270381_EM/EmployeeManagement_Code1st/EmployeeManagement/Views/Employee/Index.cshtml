@@ -1,0 +1,93 @@
+﻿@model IEnumerable<EmployeeManagement.Models.Employee>
+@{
+    ViewBag.Title = "Index";
+}
+<div>&nbsp;</div>
+<div class="d-flex justify-content-center mb-1 ">
+    @Html.ActionLink("Add New Employee", "Create", "Employee", new { }, new { @class = " btn btn-warning" })
+</div>
+<div>&nbsp;</div>
+<div class="row ">
+    <div class="col-12 ">
+        <h3>Employees</h3>
+
+        <table class="table table-bordered table-striped">
+            <thead class="table-light">
+                <tr>
+                    <th></th>
+                    <th>Employee Name</th>
+                    <th>Birth Date</th>
+                    <th>Applied For</th>
+                    <th>Salary</th>
+                    <th>Work from home?</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var c in Model)
+                {
+                    <tr id="tr_@c.EmployeeId" style="vertical-align:middle">
+                        <th>
+                            <img class="rounded-circle" src="~/Pictures/@c.Picture" style="width:40px" />
+                        </th>
+                        <td>@c.EmployeeName</td>
+                        <td>@c.BirthDate.ToString("yyyy-MM-dd")</td>
+                        <td>@c.AppliedFor</td>
+                        <td>@c.ExpectedSalary.ToString("0.00")</td>
+                        <td>@(c.WorkFromHome ? "Yes": "No")</td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", "Employee", new { id = c.EmployeeId }, new { @class = "btn btn-warning btn-sm" })
+                            @Ajax.ActionLink("Delete", "Delete", new { id = c.EmployeeId },
+                           new AjaxOptions { Confirm = "Are youre to delele?\nRelated data will also be deleted", HttpMethod = "Post", OnSuccess = "onSuccess" },
+                           new { @class = "btn btn-danger btn-sm" })
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td colspan="6">
+                            <h4>Educational Qualifications</h4>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Degree</th>
+                                        <th>Institute</th>
+                                        <th>Department</th>
+                                        <th>Passing Year</th>
+                                        <th>Result</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var s in c.Skills)
+                                    {
+                                        <tr>
+                                            <td>@s.Course</td>
+                                            <td>@s.Institute</td>
+                                            <td>@s.Department</td>
+                                            <td>@s.PassingYear  </td>
+                                            <td>@s.Result</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    </div>
+@section scripts {
+    <script src="~/Scripts/jquery-3.6.3.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script>
+        function onSuccess(r) {
+            console.log(r);
+            $("#tr_" + r).remove();
+        }
+    </script>
+}
+
+
+
+
+

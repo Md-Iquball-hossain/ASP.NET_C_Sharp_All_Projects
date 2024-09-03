@@ -1,0 +1,710 @@
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.AssemblyReference.cache
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.CoreCompileInputs.cache
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\EmployeeManagement.dll.config
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\EmployeeManagement.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\EmployeeManagement.pdb
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csc.exe
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csc.exe.config
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csc.rsp
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csi.exe
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csi.exe.config
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csi.rsp
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\vbc.exe
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\vbc.exe.config
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\vbc.rsp
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\EntityFramework.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Helpers.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Mvc.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Razor.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.Deployment.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.Razor.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\EntityFramework.xml
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Razor.xml
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.xml
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.Deployment.xml
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.Razor.xml
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Helpers.xml
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Mvc.xml
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.CopyComplete
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.pdb
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Buffers.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Memory.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.GenerateResource.cache
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Security.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Owin.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.xml
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Security.xml
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Security.Cookies.xml
+F:\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.AssemblyReference.cache
+F:\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.Inital.resources
+F:\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.GenerateResource.cache
+F:\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.CoreCompileInputs.cache
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.AssemblyReference.cache
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.CoreCompileInputs.cache
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\EmployeeManagement.dll.config
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\EmployeeManagement.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\EmployeeManagement.pdb
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csc.exe
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csc.exe.config
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csc.rsp
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csi.exe
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csi.exe.config
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csi.rsp
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Buffers.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Memory.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\vbc.exe
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\vbc.exe.config
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\vbc.rsp
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportSource.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.Shared.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\EntityFramework.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Security.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\Owin.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Helpers.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Mvc.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Razor.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.Razor.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\stdole.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\EntityFramework.xml
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.xml
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Security.xml
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Razor.xml
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.xml
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.Razor.xml
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Helpers.xml
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Mvc.xml
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.CopyComplete
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.dll
+C:\Users\Emon GD\Desktop\MVC Project\MVC2 Project\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.pdb
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\EmployeeManagement.dll.config
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\EmployeeManagement.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\EmployeeManagement.pdb
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csc.exe
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csc.exe.config
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csc.rsp
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csi.exe
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csi.exe.config
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csi.rsp
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Buffers.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Memory.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\vbc.exe
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\vbc.exe.config
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\vbc.rsp
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportSource.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.Shared.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\EntityFramework.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Security.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Owin.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Helpers.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Mvc.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Razor.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.Razor.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\stdole.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\EntityFramework.xml
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.xml
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Security.xml
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Razor.xml
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.xml
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.Razor.xml
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Helpers.xml
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Mvc.xml
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.AssemblyReference.cache
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.CoreCompileInputs.cache
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.CopyComplete
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.dll
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.pdb
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.InitialCreate.resources
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.GenerateResource.cache
+C:\Users\Emon GD\Desktop\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.InitialCreate1.resources
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportSource.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.Shared.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\bin\stdole.dll
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.InitialCreate.resources
+C:\Users\LAB104-04\Desktop\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.InitialCreate1.resources
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\EmployeeManagement.dll.config
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\EmployeeManagement.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\EmployeeManagement.pdb
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csc.exe
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csc.exe.config
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csc.rsp
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csi.exe
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csi.exe.config
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\csi.rsp
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.Managed.Core.targets
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Buffers.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Collections.Immutable.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Memory.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Numerics.Vectors.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Reflection.Metadata.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\vbc.exe
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\vbc.exe.config
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\vbc.rsp
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\VBCSCompiler.exe
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\roslyn\VBCSCompiler.exe.config
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportSource.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.Shared.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\EntityFramework.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\EntityFramework.SqlServer.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.AspNet.Identity.Core.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Security.Cookies.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Security.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Web.Infrastructure.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\Owin.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Helpers.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Mvc.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Razor.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.Deployment.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.Razor.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\stdole.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\EntityFramework.xml
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\EntityFramework.SqlServer.xml
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.AspNet.Identity.Core.xml
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.xml
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Security.xml
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\Microsoft.Owin.Security.Cookies.xml
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Razor.xml
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.xml
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.Deployment.xml
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Webpages.Razor.xml
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Helpers.xml
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\bin\System.Web.Mvc.xml
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.AssemblyReference.cache
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.InitialCreate.resources
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.InitialCreate1.resources
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.GenerateResource.cache
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.CoreCompileInputs.cache
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.CopyComplete
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.dll
+D:\R52\M8\Projects\1270381\EmployeeManagement\EmployeeManagement\obj\Debug\EmployeeManagement.pdb
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\EmployeeManagement.dll.config
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\EmployeeManagement.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\EmployeeManagement.pdb
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\csc.exe
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\csc.exe.config
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\csc.rsp
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\csi.exe
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\csi.exe.config
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\csi.rsp
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\Microsoft.Managed.Core.targets
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\System.Buffers.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\System.Collections.Immutable.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\System.Memory.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\System.Numerics.Vectors.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\System.Reflection.Metadata.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\vbc.exe
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\vbc.exe.config
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\vbc.rsp
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\VBCSCompiler.exe
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\roslyn\VBCSCompiler.exe.config
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\CrystalDecisions.ReportSource.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\CrystalDecisions.Shared.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\EntityFramework.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\EntityFramework.SqlServer.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\Microsoft.AspNet.Identity.Core.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\Microsoft.Owin.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\Microsoft.Owin.Security.Cookies.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\Microsoft.Owin.Security.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\Microsoft.Web.Infrastructure.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\Owin.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\System.Web.Helpers.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\System.Web.Mvc.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\System.Web.Razor.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\System.Web.Webpages.Deployment.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\System.Web.Webpages.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\System.Web.Webpages.Razor.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\stdole.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\EntityFramework.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\EntityFramework.SqlServer.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\Microsoft.AspNet.Identity.Core.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\Microsoft.Owin.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\Microsoft.Owin.Security.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\Microsoft.Owin.Security.Cookies.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\System.Web.Razor.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\System.Web.Webpages.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\System.Web.Webpages.Deployment.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\System.Web.Webpages.Razor.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\System.Web.Helpers.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\bin\System.Web.Mvc.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.AssemblyReference.cache
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.InitialCreate.resources
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.InitialCreate1.resources
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.GenerateResource.cache
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.CoreCompileInputs.cache
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.CopyComplete
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\obj\Debug\EmployeeManagement.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework(Code 1st)\1270381_EmployeeManagement\EmployeeManagement_MVC_Code_1st\EmployeeManagement\obj\Debug\EmployeeManagement.pdb
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EmployeeManagement.dll.config
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EmployeeManagement.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EmployeeManagement.pdb
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\csc.exe
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\csc.exe.config
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\csc.rsp
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\csi.exe
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\csi.exe.config
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\csi.rsp
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.Managed.Core.targets
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Buffers.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Collections.Immutable.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Memory.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Numerics.Vectors.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Reflection.Metadata.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\vbc.exe
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\vbc.exe.config
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\vbc.rsp
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\VBCSCompiler.exe
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\VBCSCompiler.exe.config
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportSource.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.Shared.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EntityFramework.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EntityFramework.SqlServer.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.AspNet.Identity.Core.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.Security.Cookies.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.Security.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Web.Infrastructure.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Owin.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Helpers.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Mvc.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Razor.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Webpages.Deployment.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Webpages.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Webpages.Razor.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\stdole.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EntityFramework.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EntityFramework.SqlServer.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.AspNet.Identity.Core.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.Security.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.Security.Cookies.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Razor.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Webpages.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Webpages.Deployment.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Webpages.Razor.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Helpers.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Mvc.xml
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.AssemblyReference.cache
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.InitialCreate.resources
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.InitialCreate1.resources
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.GenerateResource.cache
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.CoreCompileInputs.cache
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.CopyComplete
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.dll
+E:\2_Module_Project\My Project\ASP.NET_MVC_Entity_Framework\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.pdb
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EmployeeManagement.dll.config
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EmployeeManagement.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EmployeeManagement.pdb
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\csc.exe
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\csc.exe.config
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\csc.rsp
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\csi.exe
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\csi.exe.config
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\csi.rsp
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.Managed.Core.targets
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Buffers.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Collections.Immutable.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Memory.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Numerics.Vectors.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Reflection.Metadata.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\vbc.exe
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\vbc.exe.config
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\vbc.rsp
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\VBCSCompiler.exe
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\VBCSCompiler.exe.config
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportSource.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.Shared.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EntityFramework.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EntityFramework.SqlServer.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.AspNet.Identity.Core.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.Security.Cookies.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.Security.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Web.Infrastructure.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Owin.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Helpers.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Mvc.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Razor.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Webpages.Deployment.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Webpages.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Webpages.Razor.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\stdole.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EntityFramework.xml
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EntityFramework.SqlServer.xml
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.AspNet.Identity.Core.xml
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.xml
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.Security.xml
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.Security.Cookies.xml
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Razor.xml
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Webpages.xml
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Webpages.Deployment.xml
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Webpages.Razor.xml
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Helpers.xml
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Mvc.xml
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.AssemblyReference.cache
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.InitialCreate.resources
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.InitialCreate1.resources
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.GenerateResource.cache
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.CoreCompileInputs.cache
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.CopyComplete
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.dll
+E:\2. Module_Project\My Project\ASP.NET_MVC_EF_Employee Management\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.pdb
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EmployeeManagement.dll.config
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EmployeeManagement.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EmployeeManagement.pdb
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\csc.exe
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\csc.exe.config
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\csc.rsp
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\csi.exe
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\csi.exe.config
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\csi.rsp
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.Managed.Core.targets
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Buffers.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Collections.Immutable.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Memory.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Numerics.Vectors.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Reflection.Metadata.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\vbc.exe
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\vbc.exe.config
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\vbc.rsp
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\VBCSCompiler.exe
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\roslyn\VBCSCompiler.exe.config
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EntityFramework.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EntityFramework.SqlServer.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.AspNet.Identity.Core.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.Security.Cookies.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.Security.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Web.Infrastructure.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Owin.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Helpers.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Mvc.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Razor.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Webpages.Deployment.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Webpages.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Webpages.Razor.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\stdole.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EntityFramework.xml
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\EntityFramework.SqlServer.xml
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.AspNet.Identity.Core.xml
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.xml
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.Security.xml
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\Microsoft.Owin.Security.Cookies.xml
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Razor.xml
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Webpages.xml
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Webpages.Deployment.xml
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Webpages.Razor.xml
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Helpers.xml
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\bin\System.Web.Mvc.xml
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.AssemblyReference.cache
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.InitialCreate.resources
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.InitialCreate1.resources
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.GenerateResource.cache
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.CoreCompileInputs.cache
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.CopyComplete
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.dll
+E:\2. Module_Project\Best Project\2. EM-MVC5_EF_Report\1270381_EM\EmployeeManagement_Code1st\EmployeeManagement\obj\Debug\EmployeeManagement.pdb

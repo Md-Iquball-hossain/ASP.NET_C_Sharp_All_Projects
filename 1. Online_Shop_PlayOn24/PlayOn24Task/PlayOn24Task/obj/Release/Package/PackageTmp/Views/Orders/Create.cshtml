@@ -1,0 +1,190 @@
+﻿@model PlayOn24Task.ViewModels.OrderInputModel
+@{
+    ViewBag.Title = "Create";
+}
+<h2 class="text-bg-success text-center"> Order Details For Create Invoice </h2>
+<div>&nbsp;</div>
+<h3>Select Customer Information </h3>
+<div class="row">
+    <div class="col-12">
+        @using (Html.BeginForm("Create", "Orders", FormMethod.Post, new { id = "frm" }))
+        {
+            <div class="row">
+                <div class="col-12">
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert" id="error" style="display:none">
+                        <strong>Error!</strong> <span id="msg"></span>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    <div class="form-group row mb-1">
+                        @Html.LabelFor(x => x.CustomerName, new { @class = "col-form-label col-2" })
+                        <div class="col-4">
+                            @Html.TextBoxFor(x => x.CustomerName, new { @class = "form-control", list = "custs" })
+                            @Html.ValidationMessageFor(x => x.CustomerName, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group row mb-1">
+                        @Html.LabelFor(x => x.Address, new { @class = "col-form-label col-2" })
+                        <div class="col-4">
+                            @Html.TextAreaFor(x => x.Address, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Address, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>&nbsp;</div>
+            <h3>Select Product Details </h3>
+
+            <div>&nbsp;</div>
+
+            <div class="form-group row mb-1">
+                <div class="col-4">
+                    <h6>Choose any Product</h6>
+                    <select id="products" class="form-select">
+                        @foreach (var p in ViewBag.Products)
+                        {
+                            <option data-price="@p.Price" value="@p.ProductId">@p.ProductName</option>
+                        }
+                        <option value="" selected>Select product</option>
+                    </select>
+                </div>
+
+
+                <div class="col-4">
+                    <h6>Select Product Quantity</h6>
+                    <input type="number" class="form-control" id="qty" />
+                </div>
+                <div class="col-2" style="margin-top:30px">
+                    <button id="add" type="button" class="btn btn-info btn-sm ">Add</button>
+                </div>
+            </div>
+            <div>&nbsp;</div>
+            <h5> View Products Information</h5>
+            <div class="form-group row mb-1">
+                <div class="col-6">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Product Name</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Amount</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody">
+                        </tbody>
+                        <tfoot id="tfoot">
+
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+            <div class="form-group row mb-2">
+
+                <div class="col-6">
+                    <div class="d-flex justify-content-start">
+                        <button type="button" class="btn btn-primary btn-sm offset-6" id="save">Save Order to Invoice</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<datalist id="custs">
+    @foreach (var s in ViewBag.CustomerNames)
+    {
+        <option value="@s" />
+    }
+</datalist>
+
+<div>&nbsp;</div>
+<div class="col-12 d-flex justify-content-center">
+    @Html.ActionLink("Back to list", "Index", new { }, new { @class = "btn btn-info" })
+</div>
+<div>&nbsp;</div>
+@section scripts{
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script>
+        var products = [];
+        $(() => {
+            $("#CustomerName").change(() => {
+                let cust = $("#CustomerName").val();
+                $.ajax({
+                    type: "get",
+                    url: "/Orders/GetCustomerAddress?customerName=" + cust,
+                    dataType: "json",
+                    success: r => {
+                        $("#Address").val(r);
+                    }
+                })
+            });
+            $("#add").click(() => {
+                console.log('c')
+                if ($("#products").val() == '' || $("#qty").val() == '') return;
+                products.push({ name: $("#products option:selected").text(), id: $("#products").val(), price: $("#products option:selected").data('price'), qty: $("#qty").val() });
+                //console.log(products);
+                fillTable();
+            });
+            $(document).on('click', 'button.del', function () {
+                let pid = $(this).data('pid');
+                let i = products.findIndex(v => v.id == pid);
+                if (i >= 0) products.splice(i, 1);
+                fillTable();
+            });
+            $("#save").click(() => {
+                var valid = $("#frm").valid();
+                if (!valid) return;
+                if (products.length == 0) {
+                    $("#msg").html('No product added');
+                    $("#error").show();
+                }
+                let data = {
+                    CustomerName: $('#CustomerName').val(),
+                    Address: $('#Address').val(),
+                    Items: []
+                };
+                products.forEach(v => {
+                    data.Items.push({
+                        ProductId: v.id,
+                        Quantity: v.qty
+                    });
+                });
+                //console.log(data);
+                $.ajax({
+                    type: "post",
+                    url: "/Orders/Create",
+                    data: { model: data },
+                    success: r => {
+                        if (r.success == true) {
+                            window.location.href = `/Orders/Invoice/${r.orderId}`
+                        }
+                        else {
+                            $("#msg").html('Failed save order');
+                            $("#error").show();
+                        }
+                    }
+                })
+            });
+        });
+        function fillTable() {
+            $('#tbody').html('');
+            let total = 0;
+            products.forEach(p => {
+                total += p.price * p.qty;
+                $('#tbody').append(`<tr>
+                                     <td>${p.name}</td>
+                                     <td>${p.price}</td>
+                                     <td>${p.qty}</td>
+                                     <td>${(p.price * p.qty).toFixed(2)}</td>
+                                     <td>
+                                        <button type='button' data-pid='${p.id}' class='btn btn-danger btn-sm del'>X</button>
+                                     </td>
+                                </tr>`);
+            });
+            $('#tfoot').html(`<tr>
+                                <td colspan='5' class='text-center'>Total Amount :${total.toFixed(2)}</td>
+                            </tr>`);
+        }
+    </script>
+}

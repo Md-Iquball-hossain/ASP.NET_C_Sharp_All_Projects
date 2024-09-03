@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+	<link rel='stylesheet' href='styles/js-snackbar.css' />
+	<script src="scripts/js-snackbar.js"></script>
+    <script src="node_modules/socket.io/client-dist/socket.io.js"></script>
+	<script src="node_modules/socketio-file-upload/client.js"></script>
+    <script>
+		$(() => {
+			var socket = io('http://localhost:9191');
+			socket.on('connect', () => {
+				var fillup = new SocketIOFileUpload(socket);
+				fillup.listenOnInput(document.getElementById("fill"))
+				fillup.listenOnDrop(document.getElementById("drop"));
+				$('#usercon').show();
+				$('#bcon').click(() => {
+					socket.emit('register', $('#dname').val());
+				});
+				$('#send').click(() => {
+					socket.emit('chat', $('#msg').val());
+					$('#msg').val('');
+				});
+				$('#cfill').click(() => {
+					$('#fill').trigger('click');
+				});
+				socket.on('regsuccess', name => {
+					$("#hname").html(name);
+					$('#usercon').hide();
+					$('#pchat').show();
+				});
+				socket.on('userlist', names => {
+
+					$('#users').empty(),
+						names.forEach(n => {
+							$('#users').append(`<li>${n}</li>`);
+						});
+				});
+				socket.on('message', m => {
+
+					$('#messages').append(`<li>${m.from}: ${m.msg}</li>`);
+
+				});
+				socket.on('uploaded', m => {
+
+					$('#files').append(`<figure>
+						<img src="uploads/${m.type=='image' ? m.file: 'file.png'}" />
+						<figcaption>Uploaded by ${m.from}</figcaption>
+						<a target='_blank' href="uploads/${m.file}">Download</a>
+					</figure>`);
+				});
+				loader.addEventListener("complete", function (event) {
+
+					SnackBar({
+						message: `${event.file.name} uploaded`,
+						position: "bc"
+					});
+				});
+			});
+			
+		});
+	</script>
+</head>
+<body>
+	<nav>
+		<span class="logo"><img src="uploads/mih.jpg" alt="not found"></span>
+		<span class="brand">MIH GUN Shop</span>
+		<span class="sp"></span>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="Products.html">Products</a></li>
+			<li><a href="chat.html">Chat</a></li>
+			<li><a href="calcutator.html">Service</a></li>
+			<li><a href="details.html">About</a></li>
+		</ul>
+	</nav>
+    <div class="container main">
+         <div id="usercon" style="display: none;">
+            <input placeholder="Connect With Name.." type="text" id="dname" class="text-grow" /><button type="button" id="bcon" class="btn">Click</button>
+         </div>
+         <div id="pchat" style="display: none;" class="my-2">
+            <div class="c-1">
+				<div class='list-header'>Users</div>
+				<ul class='list' id="users">
+
+				</ul>
+			</div>
+            <div class="c-2">
+                <div><h3 id="hname"></h3></div>
+                <div class="flex">
+                    <input placeholder="message..." type="text" id="msg" class="text-grow" /><button type="button" id="send" class="btn">Send</button><button type="button" id="cfill" class="btn">Choose File</button>
+                </div>
+                <div id="drop" class="my-1">
+                    Drop files here
+                </div>
+                <div id="pmessages">
+                    <div class='list-header mt'>Messages</div>
+                    <ul class='list' id="messages"></ul>
+                </div>
+                <div id="files" class="files"></div>
+            </div>
+         </div>  
+    </div>
+    <footer class="footer">
+        <p>&copy; Copyright 2022, All rights reserved MIH Group Ltd .</p>
+    </footer>
+    <input type='file' id='fill' style='display:none;' />
+</body>
+</html>

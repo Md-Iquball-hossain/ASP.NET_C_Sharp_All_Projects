@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "I:\\Project\\Student From\\Blazor Project1\\CandidateBlazorApp\\CandidateBlazorApp\\Server\\wwwroot\\Pictures\\2iecp1rj.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\2iecp1rj.jpg"
+    },
+    {
+      "Id": "I:\\Project\\Student From\\Blazor Project1\\CandidateBlazorApp\\CandidateBlazorApp\\Server\\wwwroot\\Pictures\\2ntmhgdr.png",
+      "PackagePath": "staticwebassets\\Pictures\\2ntmhgdr.png"
+    },
+    {
+      "Id": "I:\\Project\\Student From\\Blazor Project1\\CandidateBlazorApp\\CandidateBlazorApp\\Server\\wwwroot\\Pictures\\31ic3ttp.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\31ic3ttp.jpg"
+    },
+    {
+      "Id": "I:\\Project\\Student From\\Blazor Project1\\CandidateBlazorApp\\CandidateBlazorApp\\Server\\wwwroot\\Pictures\\5lhxjnax.png",
+      "PackagePath": "staticwebassets\\Pictures\\5lhxjnax.png"
+    },
+    {
+      "Id": "I:\\Project\\Student From\\Blazor Project1\\CandidateBlazorApp\\CandidateBlazorApp\\Server\\wwwroot\\Pictures\\b4i0igbr.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\b4i0igbr.jpg"
+    },
+    {
+      "Id": "I:\\Project\\Student From\\Blazor Project1\\CandidateBlazorApp\\CandidateBlazorApp\\Server\\wwwroot\\Pictures\\bah2opo5.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\bah2opo5.jpg"
+    },
+    {
+      "Id": "I:\\Project\\Student From\\Blazor Project1\\CandidateBlazorApp\\CandidateBlazorApp\\Server\\wwwroot\\Pictures\\d4lvycfv.png",
+      "PackagePath": "staticwebassets\\Pictures\\d4lvycfv.png"
+    },
+    {
+      "Id": "I:\\Project\\Student From\\Blazor Project1\\CandidateBlazorApp\\CandidateBlazorApp\\Server\\wwwroot\\Pictures\\db2qiey2.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\db2qiey2.jpg"
+    },
+    {
+      "Id": "I:\\Project\\Student From\\Blazor Project1\\CandidateBlazorApp\\CandidateBlazorApp\\Server\\wwwroot\\Pictures\\eu2vayte.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\eu2vayte.jpg"
+    },
+    {
+      "Id": "I:\\Project\\Student From\\Blazor Project1\\CandidateBlazorApp\\CandidateBlazorApp\\Server\\wwwroot\\Pictures\\kfjbepeo.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\kfjbepeo.jpg"
+    },
+    {
+      "Id": "I:\\Project\\Student From\\Blazor Project1\\CandidateBlazorApp\\CandidateBlazorApp\\Server\\wwwroot\\Pictures\\p2vcu5wt.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\p2vcu5wt.jpg"
+    },
+    {
+      "Id": "I:\\Project\\Student From\\Blazor Project1\\CandidateBlazorApp\\CandidateBlazorApp\\Server\\wwwroot\\Pictures\\stqislts.png",
+      "PackagePath": "staticwebassets\\Pictures\\stqislts.png"
+    },
+    {
+      "Id": "I:\\Project\\Student From\\Blazor Project1\\CandidateBlazorApp\\CandidateBlazorApp\\Server\\wwwroot\\Pictures\\ttadot2o.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\ttadot2o.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CandidateBlazorApp.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.CandidateBlazorApp.Server.props",
+      "PackagePath": "build\\CandidateBlazorApp.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.CandidateBlazorApp.Server.props",
+      "PackagePath": "buildMultiTargeting\\CandidateBlazorApp.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.CandidateBlazorApp.Server.props",
+      "PackagePath": "buildTransitive\\CandidateBlazorApp.Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

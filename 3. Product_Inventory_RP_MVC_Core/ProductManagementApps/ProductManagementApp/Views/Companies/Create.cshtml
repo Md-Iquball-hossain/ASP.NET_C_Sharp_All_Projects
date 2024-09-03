@@ -1,0 +1,48 @@
+﻿@model ProductManagementApp.Models.Company
+@{
+    ViewData["Title"] = "Create";
+}
+<div>&nbsp</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div>&nbsp</div>
+            <h3 class="fs-1 text-center">Create new Company</h3>
+            <div>&nbsp</div>
+            <form method="post" asp-action="Create" asp-controller="Companies">
+                <div class="form-group row mb-2">
+                    <label asp-for="CompanyName" class="col-form-label col-2"></label>
+                    <div class="col-4">
+                        <input type="text" asp-for="CompanyName" class="form-control" />
+                        <span asp-validation-for="CompanyName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row mb-2">
+                    <label asp-for="Address" class="col-form-label col-2"></label>
+                    <div class="col-4">
+                        <input type="text" asp-for="Address" class="form-control" />
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row mb-2">
+                    <div class="col-4 offset-2">
+                        <button type="submit" class="btn btn-primary btn-sm justify-content-center">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="d-flex justify-content-center">
+            <a asp-action="Index" asp-controller="Companies" class="btn btn-primary btn-sm">Back To List</a>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/libs/jquery/jquery.js"></script>
+    <script src="~/libs/validate/jquery.validate.js"></script>
+    <script src="~/libs/validate/jquery.validate.unobtrusive.js"></script>
+}
+
+

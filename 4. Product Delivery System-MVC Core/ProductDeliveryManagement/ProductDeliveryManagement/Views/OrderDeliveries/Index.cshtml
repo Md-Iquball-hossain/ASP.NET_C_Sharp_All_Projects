@@ -1,0 +1,61 @@
+﻿@model IEnumerable<ProductDeliveryManagement.Models.OrderDelivery>
+@{
+    ViewBag.Title = "Index";
+}
+<div class="row">
+    <div class="col-12">
+        <h3>Orders</h3>
+        <div class="d-flex justify-content-end mb-1">
+            <a href="@Url.Action("Create", "OrderDeliveries")" class="btn btn-primary btn-sm"><i class="bi bi-plus"></i> Create New</a>
+        </div>
+    </div>
+    <table class="table table-bordered table-striped">
+        <thead class="table-secondary">
+            <tr>
+                <th>Delivery Person Name</th>
+                <th>@Html.DisplayNameFor(x => x.DeliveryPerson.Phone)</th>
+                <th>@Html.DisplayNameFor(x => x.DeliveryPerson.Address)</th>
+                <th>@Html.DisplayNameFor(x => x.Order.Product.ProductName)</th>
+                <th>Status</th>
+                <th>@Html.DisplayNameFor(x => x.DeliveryDateTime)</th>
+                <th>@Html.DisplayNameFor(x => x.IsDelivered)</th>
+                <th>...</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in Model)
+            {
+                <tr>
+                    <td>@p.DeliveryPerson.Name</td>
+                    <td>@p.DeliveryPerson.Phone</td>
+                    <td>@p.DeliveryPerson.Address</td>
+                    <td>@p.Order.Product.ProductName</td>
+                    <th>@(ProductDeliveryManagement.Utils.Utils.GetStatus(p))</th>
+                    <td>@Html.DisplayFor(x => p.DeliveryDateTime)</td>
+                    <td>@(p.IsDelivered ? "Yes": "No")</td>
+                    <td>
+                        <a href="@Url.Action("Edit", "OrderDeliveries", new {id=p.OrderDeliveryId})" class="btn btn-success btn-sm">Edit<i class="bi bi-pencil"></i></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="d-flex justify-content-end">
+        <ul class="pagination pagination-sm">
+            <li class="page-item">@Html.ActionLink("First", "Index", "OrderDeliveries", new { page = 1 }, new { @class = "page-link" })</li>
+            @for (var i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                if (ViewBag.Current == i)
+                {
+                    <li class="page-item active">@Html.ActionLink(i.ToString(), "Index", "OrderDeliveries", new { page = i }, new { @class = "page-link" })</li>
+                }
+                else
+                {
+                    <li class="page-item">@Html.ActionLink(i.ToString(), "Index", "OrderDeliveries", new { page = i }, new { @class = "page-link" })</li>
+                }
+            }
+            <li class="page-item">@Html.ActionLink("Last", "Index", "OrderDeliveries", new { page = ViewBag.TotalPages }, new { @class = "page-link" })</li>
+        </ul>
+    </div>
+</div>
+

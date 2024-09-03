@@ -1,0 +1,112 @@
+﻿@model IEnumerable<ProductDeliveryManagement.ViewModel.OrderViewModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row">
+    <div class="col-12">
+        <h3>Orders</h3>
+        <div class="d-flex justify-content-end mb-1">
+            <a href="@Url.Action("Create", "Orders")" class="btn btn-primary btn-sm"><i class="bi bi-plus"></i> Create New</a>
+        </div>
+    </div>
+    <table class="table table-bordered table-striped">
+        <thead class="table-secondary">
+            <tr>
+                <th>@Html.DisplayNameFor(x => x.OrderDate)</th>
+                <th>@Html.DisplayNameFor(x => x.Product)</th>
+                <th>Quantity</th>
+                <th>@Html.DisplayNameFor(x => x.OrderStatus)</th>
+                <th>...</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(x => p.OrderDate)</td>
+                    <td>@Html.DisplayFor(x => p.Product.ProductName)</td>
+                    <td>@p.Quantity</td>
+                    <td>@p.OrderStatus</td>
+                    <td>
+                        @if (p.OrderStatus == ProductDeliveryManagement.Models.OrderStatus.Pending)
+                        {
+                            <button type="button" data-pk="@p.OrderId" class="btn btn-success btn-sm assign"><i class="bi bi-person"></i> Assign Person</button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="d-flex justify-content-end">
+        <ul class="pagination pagination-sm">
+            <li class="page-item">@Html.ActionLink("First", "Index", "Orders", new { page = 1 }, new { @class = "page-link" })</li>
+            @for (var i = 1; i <= ViewBag.TotalPages; i++)
+            {
+
+                if (ViewBag.Current == i)
+                {
+                    <li class="page-item active">@Html.ActionLink(i.ToString(), "Index", "Orders", new { page = i }, new { @class = "page-link" })</li>
+                }
+                else
+                {
+                    <li class="page-item">@Html.ActionLink(i.ToString(), "Index", "Orders", new { page = i }, new { @class = "page-link" })</li>
+                }
+            }
+            <li class="page-item">@Html.ActionLink("Last", "Index", "Orders", new { page = ViewBag.TotalPages }, new { @class = "page-link" })</li>
+        </ul>
+    </div>
+</div>
+<div class="modal" tabindex="-1" id="assignmodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Assign delivery person</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <label>Delivery person</label>
+                <select name="DeliveryPersonId" id="DeliveryPersonId" class="form-select form-select-sm">
+                    <option value="" selected>Select one</option>
+                    @foreach (var d in ViewBag.DeliverPeople)
+                    {
+                        <option value="@d.DeliveryPersonId">@d.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" id="save" data-oid="">Assign</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script src="~/Scripts/jquery-3.7.0.js"></script>
+    <script>
+        var myModal = new bootstrap.Modal(document.getElementById('assignmodal'), {
+            keyboard: false
+        });
+        $(".assign").click(function () {
+            var oid = $(this).data("pk");
+            $("#save").attr("data-oid", oid);
+            myModal.show();
+        });
+        $("#save").click(function () {
+            var oid = $(this).data("oid");
+            var dpid = $("#DeliveryPersonId").val();
+            console.log(dpid);
+            $.ajax({
+                url: "/Orders/Assign",
+                type: "post",
+                dataType: "json",
+                data: { OrderId: oid, DeilveryPersonId:dpid },
+                success: r => {
+                    console.log(r);
+                }
+            })
+        });
+    </script>
+
+}

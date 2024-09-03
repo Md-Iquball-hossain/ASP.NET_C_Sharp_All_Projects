@@ -1,0 +1,153 @@
+﻿@model IEnumerable<ProductDeliveryManagement.Models.Product>
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row">
+    <div class="col-12">
+        <h3>Products</h3>
+        <div class="d-flex justify-content-end mb-1">
+            <button class="btn btn-primary btn-sm" id="addproduct"><span class="bi bi-plus"></span> Add</button>
+        </div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Description</th>
+                    <th>Unit Price</th>
+                    <th>IsAvaliable?</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var p in Model)
+                {
+                    <tr id="tr_@p.ProductId">
+                        <td>@p.ProductName</td>
+                        <td>@p.Description</td>
+                        <td>@p.UnitPrice</td>
+                        <td>@(p.IsAvailable ? "Yes": "No")</td>
+                        <td>
+                            @*<button type="submit" class="btn btn-primary btn-sm rounded-circle edit" data-db-type="product" data-db-action="edit" data-course-id="@p.ProductId" data-controller-action="Edit">Edit<i class="bi bi-pencil"></i></button>*@
+                            @*@Html.ActionLink("Edit", "Edit", "Products", new {id=p.ProductId}, new { @class= "btn btn-secondary btn-sm editproduct" })*@
+                            <button type="submit" data-pk="@p.ProductId" id="editproduct" class="btn btn-secondary btn-sm edit">Edit</button>
+                            <button type="button" data-pk="@p.ProductId" class="btn btn-danger btn-sm del">Delete</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="d-flex justify-content-end">
+            <ul class="pagination pagination-sm">
+                <li class="page-item">@Html.ActionLink("First", "Index", "Products", new { page = 1 }, new { @class = "page-link" })</li>
+                @for (var i = 1; i <= ViewBag.TotalPages; i++)
+                {
+
+                    if (ViewBag.Current == i)
+                    {
+                        <li class="page-item active">@Html.ActionLink(i.ToString(), "Index", "Products", new { page = i }, new { @class = "page-link" })</li>
+                    }
+                    else
+                    {
+                        <li class="page-item">@Html.ActionLink(i.ToString(), "Index", "Products", new { page = i }, new { @class = "page-link" })</li>
+                    }
+                }
+                <li class="page-item">@Html.ActionLink("Last", "Index", "Products", new { page = ViewBag.TotalPages }, new { @class = "page-link" })</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--Model-->
+
+<div class="modal" tabindex="-1" id="modal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="mtitle"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="mbody">
+                <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+                @*<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" id="save" class="btn btn-primary" form="f">Save changes</button>*@
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" tabindex="-1" id="delModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-warning text-white">
+                <h5 class="modal-title">Confirm</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure to delete this item?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-danger" id="deleteItem">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/Scripts/jquery-3.7.0.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script>
+        var myModal = new bootstrap.Modal(document.getElementById('modal'));
+        var delModal = new bootstrap.Modal(document.getElementById('delModal'));
+
+        $(() => {
+            $("#addproduct").click(() => {
+
+                $.ajax({
+                    type: "GET",
+                    url: "@Url.Action("Create", "Products")",
+                    success: r => {
+                        //console.log(r);
+                        $("#mbody").html(r);
+                        $("#mtitle").html("Add Product");
+                        myModal.show();
+                    }
+                });
+            });
+            $(".edit").click(function () {
+                var id = $(this).data('pk');
+                console.log(id);
+                $.ajax({
+                    type: "GET",
+                    url: "/Products/Edit/"+id,
+                    success: r => {
+                        //console.log(r);
+                        $("#mbody").html(r);
+                        $("#mtitle").html("Edit Product");
+                        myModal.show();
+                    }
+                });
+            })
+            $(".del").click(function () {
+                var id = $(this).data('pk');
+                //console.log(id);
+                if (confirm("Are you sure to Delete?")) {
+                    $.ajax({
+                        type: "POST",
+                        url: "/Products/Delete/" + id,
+                        success: r => {
+                            console.log(r);
+                            if (r.success) {
+                                $("#tr_" + id).remove();
+                            }
+                        }
+                    })
+                }
+            })
+        })
+    </script>
+}

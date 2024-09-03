@@ -1,0 +1,48 @@
+﻿@model ProductManagementApp.Models.Company
+@{
+    ViewData["Title"] = "Edit";
+}
+<div>&nbsp</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div>&nbsp</div>
+            <h3 class="fs-1 text-center">Update Company</h3>
+            <form method="post" asp-action="Edit" asp-controller="Companies">
+                <input type="hidden" asp-for="CompanyId" />
+                <div>&nbsp</div>
+                <div class="form-group row mb-2">
+                    <label asp-for="CompanyName" class="col-form-label col-2"></label>
+                    <div class="col-4">
+                        <input type="text" asp-for="CompanyName" class="form-control" />
+                        <span asp-validation-for="CompanyName" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row mb-2">
+                    <label asp-for="Address" class="col-form-label col-2"></label>
+                    <div class="col-4">
+                        <input type="text" asp-for="Address" class="form-control" />
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row mb-2">
+                    <div class="col-4 offset-2">
+                        <button type="submit" class="btn btn-primary btn-sm">Update</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/libs/jquery/jquery.js"></script>
+    <script src="~/libs/validate/jquery.validate.js"></script>
+    <script src="~/libs/validate/jquery.validate.unobtrusive.js"></script>
+}
+
+
+
+

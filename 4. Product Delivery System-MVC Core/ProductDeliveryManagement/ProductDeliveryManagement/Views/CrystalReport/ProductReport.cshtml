@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ProductDeliveryManagement.ViewModel.Reports.ProductReportViewModel>
+@{
+    ViewBag.Title = "ProductReport";
+}
+
+<div class="row">
+    <div class="col-12">
+        <table class="table table-bordered">
+            <thead class="table-light">
+                <tr>
+                    <th>Order Date</th>
+                    <th>Customer Name</th>
+                    <th>Customer Phone</th>
+                    <th>Customer Address</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Product Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var p in Model)
+                {
+                    <tr>
+                        <td>@p.OrderDate</td>
+                        <td>@p.CustomerName</td>
+                        <td>@p.CustomerPhone</td>
+                        <td>@p.CustomerAddress</td>
+                        <td>@p.Quantity</td>
+                        <td>@p.UnitPrice</td>
+                        <td>@p.ProductName</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-12 text-center">
+        @Html.ActionLink("Download PDF", "ProductPDF", "CrystalReport", new { }, new { @class = "btn btn-primary btn-sm" })
+        @Html.ActionLink("Download Excel", "ProductExcel", "CrystalReport", new { }, new { @class = "btn btn-secondary btn-sm" })
+    </div>
+</div>
+

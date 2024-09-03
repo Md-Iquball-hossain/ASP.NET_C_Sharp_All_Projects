@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/in.css">
+</head>
+
+<body>
+    <nav class="n">
+        <span class="logo"><img src="uploads/mih.jpg" alt="not found"></span>
+        <span class="brand">MIH GUN Shop</span>
+        <span class="sp"></span>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="chat.html">Chat</a></li>
+            <li><a href="calcutator.html">Service</a></li>
+            <li><a href="details.html">About</a></li>
+        </ul>
+    </nav>
+    <div class="container main">
+        <div><marquee direction="right" class="maq">20% OFF ON HANDGUNs</marquee></div>
+        <div class="slider">
+            <div class="slideshow-container">
+
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="uploads/1.jpg" style="width:100%">
+                    <div class="text">Shop On HandGuns</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="uploads/2.jpg" style="width:100%">
+                    <div class="text">Save You, Save Familly</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="uploads/3.jpg" style="width:100%">
+                    <div class="text">Blid Your Skill</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="uploads/4.jpg" style="width:100%">
+                    <div class="text">Protection First</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="uploads/5.jpg" style="width:100%">
+                    <div class="text">Holiday For You</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+
+        </div>
+        <div>
+            <div class="tx">
+                <h1 class="h1">4 PRIMARY RULES OF FIREARM SAFETY</h1>
+
+                <div class="img-text">
+                    <div class="c1"></div>
+                    <img src="uploads/6.jpg" alt="">
+                    <h4 class="tx2">While youre at the shooting range or anywhere you handle a firearm safety ALWAYS comes first.
+                        Here are the 4 Primary Rules of Firearms Safety.
+                        This list is intended to emphasize the basics of safe firearm handling and secure storage and by
+                        reminding you that you are the key to firearms safety.
+                        You must constantly stress safety when handling firearms, especially to children and
+                        non-shooters. Beginners, in particular, must be closely supervised when handling firearms with
+                        which they may not be acquainted.
+                    </h4>
+                    <div class="c1"></div>
+                </div>
+                <div class="tx1">
+                    <h1>1. Always Keep Firearm Pointed in a Safe direction</h1>
+                    Never point your gun at anything you do not intend to shoot. This is particularly important when
+                    loading or unloading a firearm. In the event of an accidental discharge, no injury can occur as long
+                    as the muzzle is pointing in a safe direction.
+                    A safe direction means a direction in which a bullet cannot possibly strike anyone, taking into
+                    account possible ricochets and the fact that bullets can penetrate walls and ceilings. The safe
+                    direction may be “up” on some occasions or “down” on others, but never at anything not intended as a
+                    target. Even when “dry firing” with an unloaded gun, you should never point the gun at an unsafe
+                    target.
+                    Make it a habit to know exactly where the muzzle of your gun is pointing at all times, and be sure
+                    that you are in control of the direction the muzzle is pointing, even if you fall or stumble. This
+                    is your responsibility, and only you can control it.
+                    <h1>2. Treat All Guns as Though They are Loaded</h1>
+                    By treating every firearm as if it is loaded, a habit of safety is developed. Firearms should be
+                    loaded only when you are in the field or on the target range or shooting area, ready to shoot.
+                    Whenever you handle a firearm, or hand it to someone, always open the action immediately, and
+                    visually check the chamber, receiver and magazine to be certain they do not contain any ammunition.
+                    Always keep actions open when not in use. Never assume a gun is unloaded — check for yourself! This
+                    is considered a mark of an experienced gun handler!
+                    <h1>3. Keep Your Finger Off the Trigger until You are Ready to Shoot</h1>
+                    Never touch the trigger on a firearm until you actually intend to shoot. Keep your fingers away from
+                    the trigger while loading or unloading. Never pull the trigger on any firearm with the safety on the
+                    “safe” position or anywhere in between “safe” and “fire.” It is possible that the gun can fire at
+                    any time, or even later when you release the safety, without you ever touching the trigger again.
+                    <h1>4. Always Be Sure of Your Target and Whats Beyond It</h1>
+                    Donot shoot unless you know exactly what your shot is going to strike. Be sure that your bullet will
+                    not injure anyone or anything beyond your target.
+                    Be aware that even a .22 short bullet can travel over 1 1/4 miles and a high velocity cartridge,
+                    such as a .30-06, can send its bullet more than three miles. Shotgun pellets can travel 500 yards,
+                    and shotgun slugs have a range of over half a mile.
+                    You should keep in mind how far a bullet will travel if it misses your intended target or ricochets
+                    in another direction.
+                    Follow the safety procedures outlined here, develop safe shooting habits, and remember, firearm
+                    safety is up to you.
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+    </script>
+    <footer>
+        <p>&copy; Copyright 2022, All rights reserved MIH Group Ltd .</p>
+    </footer>
+</body>
+
+</html>

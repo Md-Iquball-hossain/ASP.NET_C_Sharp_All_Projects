@@ -1,0 +1,68 @@
+﻿@model ProductDeliveryManagement.Models.OrderDelivery
+    ViewBag.Title = "Edit";
+}
+
+<div class="row">
+    <div class="col-12">
+        @using (Html.BeginForm())
+        {
+            @Html.HiddenFor(x => x.OrderDeliveryId)
+            @Html.HiddenFor(x => x.DeliveryPersonId)
+            <div>
+                <h3>Create new order</h3>
+            </div>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.Order.Product.ProductName, new { @class = "col-form-label col-form-label-sm col-2 text-end" })
+                <div class="col-4">
+                    @Html.DisplayFor(x => x.Order.Product.ProductName)
+
+                </div>
+
+            </div>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.DeliveryPerson.Name, new { @class = "col-form-label col-form-label-sm col-2 text-end" })
+                <div class="col-4">
+                    @Html.DisplayFor(x => x.DeliveryPerson.Name)
+
+                </div>
+            </div>
+            <div class="form-group row mb-1">
+                @Html.LabelFor(x => x.DeliveryDateTime, new { @class = "col-form-label col-form-label-sm col-2 text-end" })
+                <div class="col-4">
+                    @Html.TextBoxFor(x => x.DeliveryDateTime, new { @class = "form-control form-control-sm" })
+                    @Html.ValidationMessageFor(x => x.DeliveryDateTime, "", new { @class = "text-danger", style = "font-size:small" })
+
+                </div>
+            </div>
+
+
+
+            <div class="form-group row mb-1">
+
+                <div class="col-4 offset-2 text-end">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+@section styles
+{
+    <link href="~/Content/bootstrap-datepicker.standalone.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-datepicker.standalone.css" rel="stylesheet" />
+}
+@section scripts
+{
+    <script src="~/Scripts/jquery-3.7.0.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/bootstrap-datepicker.js"></script>
+
+    <script>
+        $('#DeliveryDateTime').datepicker({
+            format: "yyyy-mm-dd"
+        });
+    </script>
+}
+
+

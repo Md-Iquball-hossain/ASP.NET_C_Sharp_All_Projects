@@ -1,0 +1,198 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo
+{
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+}
+.logo img
+{
+    width: 60px;
+    height: 60px;
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom:solid;
+    background-color:rgb(38, 182, 239);
+    
+}
+
+nav ul 
+{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a
+{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+nav ul li a:hover
+{
+    color: red;
+    align-items: center;
+}
+.sp
+{
+    flex: 1 1 auto;
+}
+.brand
+{
+    color: black;
+    font-size: 2.4rem;
+    font-weight: bolder;
+}
+footer
+{
+    background-color: rgb(38, 182, 239);
+    color: rgb(14, 12, 26);
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    border-top: solid rgb(133, 119, 119);
+}
+.main
+{
+    min-height: calc(100vh - 143px);
+}
+input[type=text]{
+    padding: .5rem;
+}
+.btn
+{
+    min-width: 90px;
+    
+    padding: .5rem;
+}
+.m-1
+{
+    margin: 8px;
+}
+.m-2 {
+    margin: 16px;
+}
+
+.my-2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.highlight 
+{
+    padding: 15px;
+    margin: 10px;
+    border: solid 3px #ccc;
+    border-radius: 8px;
+    background-color: rgb(83, 88, 88);
+    color: rgb(47, 5, 231);
+}
+#usercon
+{
+    width:50%;
+    margin: 18px auto;
+    display: flex;
+}
+.text-grow
+{
+    flex: 1 1 auto;
+}
+#pchat 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#drop
+{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 120px;
+    border: solid 1px rgb(241, 186, 186);
+    border-radius: .5rem;
+}
+#pmessages
+{
+    height: 200px;
+    overflow: auto;
+}
+.c-1
+{
+    width: 20%;
+}
+.c-2
+{
+    width: 79%;
+}
+.flex {
+    display: flex;
+}
+.list {
+	list-style: none;
+	border-collapse: collapse;
+}
+
+.list-header {
+	padding: .25rem .5rem;
+	background-color: rgb(0, 81, 255);
+	color: rgb(98, 7, 224);
+	border-top-left-radius: .25rem;
+	border-top-right-radius: .25rem;
+}
+
+.list li {
+	padding: .25rem .5rem;
+	border: solid 1px rgb(65, 57, 57);
+
+}
+
+.list li:not(:last-child) {
+	border-bottom-width: 0px;
+}
+.files {
+	min-height: 200px;
+	border: solid 1px rgb(126, 113, 113);
+	border-radius: .25rem;
+	display: flex;
+	flex-direction: row;
+	padding: .5rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    gap: 10px;
+}
+.files figure {
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	border: solid 1px rgb(153, 143, 143);
+	border-radius: .25rem;
+}
+.files figure img{
+	width: 200px;
+	height: 200px;
+	
+}
+.marq{
+    margin-top: 20px ;
+    margin-left: 100px;
+}

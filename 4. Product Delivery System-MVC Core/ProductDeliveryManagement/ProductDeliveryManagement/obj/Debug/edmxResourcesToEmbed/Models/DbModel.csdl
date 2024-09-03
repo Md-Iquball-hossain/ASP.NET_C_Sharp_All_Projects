@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="One_TouchDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DeliveryPerson">
+    <Key>
+      <PropertyRef Name="DeliveryPersonId" />
+    </Key>
+    <Property Name="DeliveryPersonId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DeliveryPersonName" Type="String" MaxLength="80" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="60" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="OrderDeliveries" Relationship="Self.FK__OrderDeli__Deliv__44FF419A" FromRole="DeliveryPersons" ToRole="OrderDeliverie" />
+  </EntityType>
+  <EntityType Name="OrderDeliverie">
+    <Key>
+      <PropertyRef Name="OrderDeliveryId" />
+    </Key>
+    <Property Name="OrderDeliveryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DeliveryDateTime" Type="DateTime" Precision="0" />
+    <Property Name="IsDelivered" Type="Boolean" />
+    <Property Name="DeliveryPersonId" Type="Int32" />
+    <NavigationProperty Name="DeliveryPerson" Relationship="Self.FK__OrderDeli__Deliv__44FF419A" FromRole="OrderDeliverie" ToRole="DeliveryPersons" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__OrderDel__4CA06362" FromRole="OrderDeliverie" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Name="OrderId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="CustomerName" Type="String" MaxLength="90" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CustomerAddress" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CustomerPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="ProductId" Type="Int32" />
+    <Property Name="OrderDeliveryId" Type="Int32" />
+    <NavigationProperty Name="OrderDeliverie" Relationship="Self.FK__Orders__OrderDel__4CA06362" FromRole="Orders" ToRole="OrderDeliverie" />
+    <NavigationProperty Name="Product" Relationship="Self.FK__Orders__ProductI__4BAC3F29" FromRole="Orders" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="ProductId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UnitPrice" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="IsAvailable" Type="Boolean" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__ProductI__4BAC3F29" FromRole="Products" ToRole="Orders" />
+  </EntityType>
+  <Association Name="FK__OrderDeli__Deliv__44FF419A">
+    <End Role="DeliveryPersons" Type="Self.DeliveryPerson" Multiplicity="0..1" />
+    <End Role="OrderDeliverie" Type="Self.OrderDeliverie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DeliveryPersons">
+        <PropertyRef Name="DeliveryPersonId" />
+      </Principal>
+      <Dependent Role="OrderDeliverie">
+        <PropertyRef Name="DeliveryPersonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Orders__OrderDel__4CA06362">
+    <End Role="OrderDeliverie" Type="Self.OrderDeliverie" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrderDeliverie">
+        <PropertyRef Name="OrderDeliveryId" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="OrderDeliveryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Orders__ProductI__4BAC3F29">
+    <End Role="Products" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="One_TouchDbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DeliveryPersons" EntityType="Self.DeliveryPerson" />
+    <EntitySet Name="OrderDeliveries" EntityType="Self.OrderDeliverie" />
+    <EntitySet Name="Orders" EntityType="Self.Order" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <AssociationSet Name="FK__OrderDeli__Deliv__44FF419A" Association="Self.FK__OrderDeli__Deliv__44FF419A">
+      <End Role="DeliveryPersons" EntitySet="DeliveryPersons" />
+      <End Role="OrderDeliverie" EntitySet="OrderDeliveries" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Orders__OrderDel__4CA06362" Association="Self.FK__Orders__OrderDel__4CA06362">
+      <End Role="OrderDeliverie" EntitySet="OrderDeliveries" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Orders__ProductI__4BAC3F29" Association="Self.FK__Orders__ProductI__4BAC3F29">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

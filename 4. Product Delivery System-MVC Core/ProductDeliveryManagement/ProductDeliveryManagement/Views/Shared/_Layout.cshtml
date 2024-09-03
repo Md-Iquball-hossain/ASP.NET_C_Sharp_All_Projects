@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.bundle.js"></script>
+    <style>
+        body {
+            padding-top: 70px;
+        }
+        .main {
+            min-height: calc(100vh - 130px);
+        }
+    </style>
+    @RenderSection("styles", false)
+</head>
+<body>
+    <nav class="navbar bg-info navbar-expand-md fixed-top shadow-sm border-bottom">
+        <div class="container">
+            <span class="navbar-brand">Delivery Management System</span>
+            <div class="navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">@Html.ActionLink("Home", "Index", "Home", new { }, new { @class = "nav-link" })</li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">@Html.ActionLink("Products", "Index", "Products", new { }, new { @class = "nav-link" })</li>
+                    <li class="nav-item">@Html.ActionLink("DeliveryPersons", "Index", "DeliveryPersons", new { }, new { @class = "nav-link" })</li>
+                    <li class="nav-item">@Html.ActionLink("Orders", "Index", "Orders", new { }, new { @class = "nav-link" })</li>
+                    <li class="nav-item">@Html.ActionLink("Order Deliverires", "Index", "OrderDeliveries", new { }, new { @class = "nav-link" })</li>
+                    <li>
+                        <a href="@Url.Action("ProductReport", "CrystalReport")" class="nav-link">Product Report</a>
+                    </li>
+                    @*<li>
+                        <a href="@Url.Action("DeliveryReport", "CrystalReport")" class="nav-link">Delivery Report</a>
+                    </li>*@
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    @if (Request.IsAuthenticated)
+                    {
+                        <li class="nav-item">@Html.ActionLink("Logout", "Logout", "Account", new { }, new { @class = "nav-link" })</li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">@Html.ActionLink("Register", "Register", "Account", new { }, new { @class = "nav-link" })</li>
+                        <li class="nav-item">@Html.ActionLink("Login", "Login", "Account", new { }, new { @class = "nav-link" })</li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container main">
+        @RenderBody()
+    </main>
+    <hr/>
+    <footer class="container text-center bg-info">
+        <p>&copy; @DateTime.Now.Year - Md.Iquball Hossain (Polock Group - One Touch Limited)</p>
+    </footer>
+    @RenderSection("scripts", false)
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
